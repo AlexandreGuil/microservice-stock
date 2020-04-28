@@ -1,0 +1,4736 @@
+{ 
+    "_id" : NumberInt(7), 
+    "quantite" : NumberInt(14740), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("2008-11-05T05:35:17.191+0000")
+}
+{ 
+    "_id" : NumberInt(69), 
+    "quantite" : NumberInt(10577), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2003-09-23T05:06:47.244+0000")
+}
+{ 
+    "_id" : NumberInt(87), 
+    "quantite" : NumberInt(6005), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2000-07-07T17:53:10.203+0000")
+}
+{ 
+    "_id" : NumberInt(62), 
+    "quantite" : NumberInt(5547), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("1998-09-19T20:25:32.743+0000")
+}
+{ 
+    "_id" : NumberInt(6), 
+    "quantite" : NumberInt(5702), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(38), 
+    "date" : ISODate("2011-11-04T14:05:37.146+0000")
+}
+{ 
+    "_id" : NumberInt(51), 
+    "quantite" : NumberInt(3417), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2010-12-14T16:42:34.822+0000")
+}
+{ 
+    "_id" : NumberInt(66), 
+    "quantite" : NumberInt(8958), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2016-09-24T15:30:08.461+0000")
+}
+{ 
+    "_id" : NumberInt(2), 
+    "quantite" : NumberInt(2138), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(92), 
+    "date" : ISODate("1997-11-20T13:31:34.846+0000")
+}
+{ 
+    "_id" : NumberInt(44), 
+    "quantite" : NumberInt(11258), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("1994-02-24T06:34:22.724+0000")
+}
+{ 
+    "_id" : NumberInt(39), 
+    "quantite" : NumberInt(196), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(84), 
+    "date" : ISODate("1995-12-22T21:28:41.660+0000")
+}
+{ 
+    "_id" : NumberInt(73), 
+    "quantite" : NumberInt(90), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2010-05-09T20:11:42.441+0000")
+}
+{ 
+    "_id" : NumberInt(19), 
+    "quantite" : NumberInt(984), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(49), 
+    "date" : ISODate("2014-05-27T15:29:42.918+0000")
+}
+{ 
+    "_id" : NumberInt(53), 
+    "quantite" : NumberInt(8537), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("1996-02-20T17:52:33.643+0000")
+}
+{ 
+    "_id" : NumberInt(1), 
+    "quantite" : NumberInt(5151), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(94), 
+    "date" : ISODate("2019-01-05T22:20:34.772+0000")
+}
+{ 
+    "_id" : NumberInt(33), 
+    "quantite" : NumberInt(7594), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2015-10-25T12:07:23.063+0000")
+}
+{ 
+    "_id" : NumberInt(50), 
+    "quantite" : NumberInt(9146), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2005-02-22T17:19:06.057+0000")
+}
+{ 
+    "_id" : NumberInt(4), 
+    "quantite" : NumberInt(1123), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2018-05-09T09:45:40.889+0000")
+}
+{ 
+    "_id" : NumberInt(24), 
+    "quantite" : NumberInt(8799), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("2009-10-07T20:43:19.267+0000")
+}
+{ 
+    "_id" : NumberInt(67), 
+    "quantite" : NumberInt(13601), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("2006-03-07T03:22:47.348+0000")
+}
+{ 
+    "_id" : NumberInt(74), 
+    "quantite" : NumberInt(14995), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("1996-01-28T19:54:27.735+0000")
+}
+{ 
+    "_id" : NumberInt(13), 
+    "quantite" : NumberInt(2136), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(24), 
+    "date" : ISODate("1994-02-08T23:16:18.738+0000")
+}
+{ 
+    "_id" : NumberInt(16), 
+    "quantite" : NumberInt(8150), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("2000-11-24T09:56:12.557+0000")
+}
+{ 
+    "_id" : NumberInt(79), 
+    "quantite" : NumberInt(2460), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("2004-06-14T11:45:53.117+0000")
+}
+{ 
+    "_id" : NumberInt(55), 
+    "quantite" : NumberInt(11764), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("2009-08-17T06:54:25.989+0000")
+}
+{ 
+    "_id" : NumberInt(58), 
+    "quantite" : NumberInt(6134), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("2019-04-23T20:34:35.528+0000")
+}
+{ 
+    "_id" : NumberInt(41), 
+    "quantite" : NumberInt(8383), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2018-03-10T11:11:31.087+0000")
+}
+{ 
+    "_id" : NumberInt(11), 
+    "quantite" : NumberInt(4224), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("1999-07-31T14:12:36.080+0000")
+}
+{ 
+    "_id" : NumberInt(42), 
+    "quantite" : NumberInt(5856), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("2011-09-17T17:01:50.110+0000")
+}
+{ 
+    "_id" : NumberInt(48), 
+    "quantite" : NumberInt(9641), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2019-01-26T01:42:52.779+0000")
+}
+{ 
+    "_id" : NumberInt(97), 
+    "quantite" : NumberInt(4808), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(86), 
+    "date" : ISODate("2020-01-05T10:56:44.454+0000")
+}
+{ 
+    "_id" : NumberInt(76), 
+    "quantite" : NumberInt(4696), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("2001-04-02T06:19:22.886+0000")
+}
+{ 
+    "_id" : NumberInt(68), 
+    "quantite" : NumberInt(2624), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("1998-11-07T15:02:07.821+0000")
+}
+{ 
+    "_id" : NumberInt(71), 
+    "quantite" : NumberInt(3328), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("2014-05-22T13:43:44.820+0000")
+}
+{ 
+    "_id" : NumberInt(46), 
+    "quantite" : NumberInt(4938), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2000-08-07T17:12:26.688+0000")
+}
+{ 
+    "_id" : NumberInt(49), 
+    "quantite" : NumberInt(13093), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("2007-02-06T13:49:55.778+0000")
+}
+{ 
+    "_id" : NumberInt(28), 
+    "quantite" : NumberInt(10575), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(30), 
+    "date" : ISODate("2005-03-27T18:05:26.298+0000")
+}
+{ 
+    "_id" : NumberInt(77), 
+    "quantite" : NumberInt(9196), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("1996-12-15T07:56:54.147+0000")
+}
+{ 
+    "_id" : NumberInt(89), 
+    "quantite" : NumberInt(13102), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2016-03-29T20:33:55.366+0000")
+}
+{ 
+    "_id" : NumberInt(9), 
+    "quantite" : NumberInt(10311), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("2007-02-15T13:33:42.008+0000")
+}
+{ 
+    "_id" : NumberInt(25), 
+    "quantite" : NumberInt(11556), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2016-06-05T20:44:21.230+0000")
+}
+{ 
+    "_id" : NumberInt(99), 
+    "quantite" : NumberInt(2828), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2007-03-10T16:39:07.703+0000")
+}
+{ 
+    "_id" : NumberInt(17), 
+    "quantite" : NumberInt(2453), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2011-05-04T05:19:14.753+0000")
+}
+{ 
+    "_id" : NumberInt(85), 
+    "quantite" : NumberInt(7554), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(10), 
+    "date" : ISODate("2019-09-16T08:18:29.423+0000")
+}
+{ 
+    "_id" : NumberInt(3), 
+    "quantite" : NumberInt(3007), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(82), 
+    "date" : ISODate("2011-06-27T19:18:14.242+0000")
+}
+{ 
+    "_id" : NumberInt(10), 
+    "quantite" : NumberInt(3656), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("2007-05-13T08:53:34.640+0000")
+}
+{ 
+    "_id" : NumberInt(84), 
+    "quantite" : NumberInt(9288), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(47), 
+    "date" : ISODate("2016-12-07T22:48:07.173+0000")
+}
+{ 
+    "_id" : NumberInt(88), 
+    "quantite" : NumberInt(12663), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2006-07-12T04:52:04.809+0000")
+}
+{ 
+    "_id" : NumberInt(61), 
+    "quantite" : NumberInt(6853), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("2008-05-20T17:17:32.230+0000")
+}
+{ 
+    "_id" : NumberInt(90), 
+    "quantite" : NumberInt(858), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2016-05-24T06:07:58.791+0000")
+}
+{ 
+    "_id" : NumberInt(23), 
+    "quantite" : NumberInt(12712), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2016-05-19T23:34:07.821+0000")
+}
+{ 
+    "_id" : NumberInt(43), 
+    "quantite" : NumberInt(528), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("2001-09-26T15:09:55.181+0000")
+}
+{ 
+    "_id" : NumberInt(96), 
+    "quantite" : NumberInt(13292), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2017-09-05T19:18:06.422+0000")
+}
+{ 
+    "_id" : NumberInt(59), 
+    "quantite" : NumberInt(12620), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(52), 
+    "date" : ISODate("1998-04-22T18:34:35.543+0000")
+}
+{ 
+    "_id" : NumberInt(64), 
+    "quantite" : NumberInt(2169), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("2012-01-24T07:34:15.308+0000")
+}
+{ 
+    "_id" : NumberInt(92), 
+    "quantite" : NumberInt(4543), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2013-06-16T02:09:16.629+0000")
+}
+{ 
+    "_id" : NumberInt(14), 
+    "quantite" : NumberInt(1773), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(52), 
+    "date" : ISODate("2006-06-19T23:21:45.172+0000")
+}
+{ 
+    "_id" : NumberInt(60), 
+    "quantite" : NumberInt(14657), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2008-09-29T22:26:16.971+0000")
+}
+{ 
+    "_id" : NumberInt(31), 
+    "quantite" : NumberInt(646), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("1993-12-14T10:48:40.498+0000")
+}
+{ 
+    "_id" : NumberInt(8), 
+    "quantite" : NumberInt(11656), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(10), 
+    "date" : ISODate("2008-06-06T09:29:36.517+0000")
+}
+{ 
+    "_id" : NumberInt(72), 
+    "quantite" : NumberInt(5340), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2009-11-26T10:36:40.950+0000")
+}
+{ 
+    "_id" : NumberInt(5), 
+    "quantite" : NumberInt(7565), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(92), 
+    "date" : ISODate("2002-01-27T02:42:20.555+0000")
+}
+{ 
+    "_id" : NumberInt(82), 
+    "quantite" : NumberInt(13737), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2010-02-27T02:21:21.264+0000")
+}
+{ 
+    "_id" : NumberInt(35), 
+    "quantite" : NumberInt(2653), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("2018-07-05T21:42:34.693+0000")
+}
+{ 
+    "_id" : NumberInt(38), 
+    "quantite" : NumberInt(3078), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("2001-07-22T19:36:14.890+0000")
+}
+{ 
+    "_id" : NumberInt(15), 
+    "quantite" : NumberInt(8112), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2006-01-29T02:45:01.293+0000")
+}
+{ 
+    "_id" : NumberInt(147), 
+    "quantite" : NumberInt(14222), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2006-11-19T05:39:48.549+0000")
+}
+{ 
+    "_id" : NumberInt(135), 
+    "quantite" : NumberInt(2343), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(12), 
+    "date" : ISODate("2020-02-13T02:15:03.994+0000")
+}
+{ 
+    "_id" : NumberInt(169), 
+    "quantite" : NumberInt(10722), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(64), 
+    "date" : ISODate("2018-08-14T08:19:35.235+0000")
+}
+{ 
+    "_id" : NumberInt(162), 
+    "quantite" : NumberInt(14499), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(1), 
+    "date" : ISODate("2010-09-15T12:06:57.220+0000")
+}
+{ 
+    "_id" : NumberInt(133), 
+    "quantite" : NumberInt(11622), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("2011-09-23T07:40:35.957+0000")
+}
+{ 
+    "_id" : NumberInt(141), 
+    "quantite" : NumberInt(5823), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(12), 
+    "date" : ISODate("2003-12-18T07:19:45.938+0000")
+}
+{ 
+    "_id" : NumberInt(158), 
+    "quantite" : NumberInt(13165), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2002-01-09T00:29:55.569+0000")
+}
+{ 
+    "_id" : NumberInt(168), 
+    "quantite" : NumberInt(10605), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("2009-08-14T10:53:58.369+0000")
+}
+{ 
+    "_id" : NumberInt(195), 
+    "quantite" : NumberInt(12361), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2001-04-17T07:33:58.507+0000")
+}
+{ 
+    "_id" : NumberInt(157), 
+    "quantite" : NumberInt(8368), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("2008-01-29T13:28:31.942+0000")
+}
+{ 
+    "_id" : NumberInt(191), 
+    "quantite" : NumberInt(3176), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2006-06-22T16:05:48.479+0000")
+}
+{ 
+    "_id" : NumberInt(176), 
+    "quantite" : NumberInt(3125), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("1993-03-26T05:18:58.479+0000")
+}
+{ 
+    "_id" : NumberInt(192), 
+    "quantite" : NumberInt(7532), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2011-03-12T09:35:56.268+0000")
+}
+{ 
+    "_id" : NumberInt(193), 
+    "quantite" : NumberInt(537), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1993-01-30T03:45:04.930+0000")
+}
+{ 
+    "_id" : NumberInt(131), 
+    "quantite" : NumberInt(9673), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2005-03-08T04:58:40.751+0000")
+}
+{ 
+    "_id" : NumberInt(110), 
+    "quantite" : NumberInt(2882), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(64), 
+    "date" : ISODate("2012-12-02T19:49:52.627+0000")
+}
+{ 
+    "_id" : NumberInt(125), 
+    "quantite" : NumberInt(7665), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2014-09-20T08:00:08.648+0000")
+}
+{ 
+    "_id" : NumberInt(137), 
+    "quantite" : NumberInt(9186), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("1999-11-27T23:15:04.588+0000")
+}
+{ 
+    "_id" : NumberInt(167), 
+    "quantite" : NumberInt(243), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2014-07-20T21:49:55.962+0000")
+}
+{ 
+    "_id" : NumberInt(174), 
+    "quantite" : NumberInt(860), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2014-06-23T18:42:59.117+0000")
+}
+{ 
+    "_id" : NumberInt(153), 
+    "quantite" : NumberInt(1334), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("1998-07-10T02:23:43.707+0000")
+}
+{ 
+    "_id" : NumberInt(173), 
+    "quantite" : NumberInt(2958), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2008-01-26T21:10:52.471+0000")
+}
+{ 
+    "_id" : NumberInt(127), 
+    "quantite" : NumberInt(5360), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("1996-04-18T11:58:39.622+0000")
+}
+{ 
+    "_id" : NumberInt(107), 
+    "quantite" : NumberInt(13026), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(65), 
+    "date" : ISODate("1999-06-14T02:55:23.987+0000")
+}
+{ 
+    "_id" : NumberInt(188), 
+    "quantite" : NumberInt(2415), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2002-02-12T01:31:54.084+0000")
+}
+{ 
+    "_id" : NumberInt(117), 
+    "quantite" : NumberInt(8151), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("2017-01-30T22:17:39.480+0000")
+}
+{ 
+    "_id" : NumberInt(149), 
+    "quantite" : NumberInt(12985), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(33), 
+    "date" : ISODate("2010-04-08T06:47:34.793+0000")
+}
+{ 
+    "_id" : NumberInt(108), 
+    "quantite" : NumberInt(12971), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("1999-06-05T15:39:52.197+0000")
+}
+{ 
+    "_id" : NumberInt(119), 
+    "quantite" : NumberInt(6635), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("1993-07-21T22:18:34.905+0000")
+}
+{ 
+    "_id" : NumberInt(105), 
+    "quantite" : NumberInt(4425), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("2019-01-18T03:53:09.748+0000")
+}
+{ 
+    "_id" : NumberInt(178), 
+    "quantite" : NumberInt(6796), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2018-06-22T02:33:05.201+0000")
+}
+{ 
+    "_id" : NumberInt(142), 
+    "quantite" : NumberInt(4547), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("2004-01-13T16:25:54.889+0000")
+}
+{ 
+    "_id" : NumberInt(103), 
+    "quantite" : NumberInt(7127), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2003-02-10T14:34:50.942+0000")
+}
+{ 
+    "_id" : NumberInt(151), 
+    "quantite" : NumberInt(2379), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2006-11-08T13:50:00.683+0000")
+}
+{ 
+    "_id" : NumberInt(198), 
+    "quantite" : NumberInt(5505), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("1998-03-21T16:03:36.667+0000")
+}
+{ 
+    "_id" : NumberInt(197), 
+    "quantite" : NumberInt(1209), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2003-01-11T20:54:48.798+0000")
+}
+{ 
+    "_id" : NumberInt(145), 
+    "quantite" : NumberInt(9094), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(8), 
+    "date" : ISODate("2019-08-21T13:02:29.089+0000")
+}
+{ 
+    "_id" : NumberInt(121), 
+    "quantite" : NumberInt(3293), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(55), 
+    "date" : ISODate("2009-02-24T00:20:06.584+0000")
+}
+{ 
+    "_id" : NumberInt(128), 
+    "quantite" : NumberInt(2691), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(97), 
+    "date" : ISODate("2013-06-25T12:22:32.594+0000")
+}
+{ 
+    "_id" : NumberInt(165), 
+    "quantite" : NumberInt(1963), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2014-04-15T04:18:41.611+0000")
+}
+{ 
+    "_id" : NumberInt(155), 
+    "quantite" : NumberInt(6442), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("1997-11-29T05:40:55.527+0000")
+}
+{ 
+    "_id" : NumberInt(175), 
+    "quantite" : NumberInt(3526), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("1993-09-13T16:43:47.258+0000")
+}
+{ 
+    "_id" : NumberInt(132), 
+    "quantite" : NumberInt(538), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2015-08-09T22:24:00.496+0000")
+}
+{ 
+    "_id" : NumberInt(179), 
+    "quantite" : NumberInt(1962), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("1999-10-11T23:10:53.569+0000")
+}
+{ 
+    "_id" : NumberInt(134), 
+    "quantite" : NumberInt(6271), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("1997-10-28T18:31:12.552+0000")
+}
+{ 
+    "_id" : NumberInt(150), 
+    "quantite" : NumberInt(735), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(49), 
+    "date" : ISODate("2016-09-03T06:27:45.845+0000")
+}
+{ 
+    "_id" : NumberInt(196), 
+    "quantite" : NumberInt(14524), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2018-05-06T03:47:09.497+0000")
+}
+{ 
+    "_id" : NumberInt(200), 
+    "quantite" : NumberInt(7217), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("1999-10-07T07:12:06.908+0000")
+}
+{ 
+    "_id" : NumberInt(161), 
+    "quantite" : NumberInt(8874), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2010-11-24T02:34:44.672+0000")
+}
+{ 
+    "_id" : NumberInt(154), 
+    "quantite" : NumberInt(14632), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2014-05-01T15:02:22.874+0000")
+}
+{ 
+    "_id" : NumberInt(116), 
+    "quantite" : NumberInt(7697), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(47), 
+    "date" : ISODate("1994-09-11T07:51:22.149+0000")
+}
+{ 
+    "_id" : NumberInt(113), 
+    "quantite" : NumberInt(9715), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2016-08-17T20:56:11.425+0000")
+}
+{ 
+    "_id" : NumberInt(140), 
+    "quantite" : NumberInt(10397), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(23), 
+    "date" : ISODate("2014-01-07T15:41:58.512+0000")
+}
+{ 
+    "_id" : NumberInt(152), 
+    "quantite" : NumberInt(13321), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("2000-03-18T10:38:23.342+0000")
+}
+{ 
+    "_id" : NumberInt(181), 
+    "quantite" : NumberInt(5983), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("1993-01-20T03:56:53.666+0000")
+}
+{ 
+    "_id" : NumberInt(184), 
+    "quantite" : NumberInt(1520), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2002-01-13T20:50:02.676+0000")
+}
+{ 
+    "_id" : NumberInt(148), 
+    "quantite" : NumberInt(7164), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(67), 
+    "date" : ISODate("2009-01-18T03:36:56.748+0000")
+}
+{ 
+    "_id" : NumberInt(171), 
+    "quantite" : NumberInt(13855), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2004-07-07T12:01:51.045+0000")
+}
+{ 
+    "_id" : NumberInt(159), 
+    "quantite" : NumberInt(12354), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2010-03-10T06:03:48.050+0000")
+}
+{ 
+    "_id" : NumberInt(139), 
+    "quantite" : NumberInt(4139), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2014-02-18T12:25:06.980+0000")
+}
+{ 
+    "_id" : NumberInt(163), 
+    "quantite" : NumberInt(1785), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(58), 
+    "date" : ISODate("2017-02-06T13:01:01.612+0000")
+}
+{ 
+    "_id" : NumberInt(146), 
+    "quantite" : NumberInt(12138), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(41), 
+    "date" : ISODate("2011-03-17T03:02:55.960+0000")
+}
+{ 
+    "_id" : NumberInt(144), 
+    "quantite" : NumberInt(8845), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2006-03-05T13:04:41.641+0000")
+}
+{ 
+    "_id" : NumberInt(106), 
+    "quantite" : NumberInt(11274), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(50), 
+    "date" : ISODate("2019-01-01T12:35:05.090+0000")
+}
+{ 
+    "_id" : NumberInt(186), 
+    "quantite" : NumberInt(3408), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("2008-01-08T10:48:45.851+0000")
+}
+{ 
+    "_id" : NumberInt(160), 
+    "quantite" : NumberInt(2927), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("1993-07-08T08:14:23.222+0000")
+}
+{ 
+    "_id" : NumberInt(124), 
+    "quantite" : NumberInt(5296), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(88), 
+    "date" : ISODate("2010-08-31T13:19:22.588+0000")
+}
+{ 
+    "_id" : NumberInt(172), 
+    "quantite" : NumberInt(1475), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(46), 
+    "date" : ISODate("2011-09-07T13:32:07.670+0000")
+}
+{ 
+    "_id" : NumberInt(180), 
+    "quantite" : NumberInt(8463), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("1996-05-09T18:29:54.229+0000")
+}
+{ 
+    "_id" : NumberInt(257), 
+    "quantite" : NumberInt(3438), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2018-12-29T06:30:58.874+0000")
+}
+{ 
+    "_id" : NumberInt(291), 
+    "quantite" : NumberInt(12104), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("2007-01-10T00:57:21.390+0000")
+}
+{ 
+    "_id" : NumberInt(284), 
+    "quantite" : NumberInt(12437), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2017-10-08T07:44:46.452+0000")
+}
+{ 
+    "_id" : NumberInt(246), 
+    "quantite" : NumberInt(12319), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2013-04-10T02:17:33.720+0000")
+}
+{ 
+    "_id" : NumberInt(244), 
+    "quantite" : NumberInt(8196), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(23), 
+    "date" : ISODate("2018-02-09T07:06:54.244+0000")
+}
+{ 
+    "_id" : NumberInt(242), 
+    "quantite" : NumberInt(2430), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(42), 
+    "date" : ISODate("2016-06-03T06:27:33.878+0000")
+}
+{ 
+    "_id" : NumberInt(243), 
+    "quantite" : NumberInt(6608), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(33), 
+    "date" : ISODate("2004-08-18T13:10:29.358+0000")
+}
+{ 
+    "_id" : NumberInt(266), 
+    "quantite" : NumberInt(5047), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("2010-04-06T20:51:59.873+0000")
+}
+{ 
+    "_id" : NumberInt(277), 
+    "quantite" : NumberInt(9030), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(53), 
+    "date" : ISODate("2006-05-03T03:59:05.347+0000")
+}
+{ 
+    "_id" : NumberInt(271), 
+    "quantite" : NumberInt(10308), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(69), 
+    "date" : ISODate("2015-10-20T13:45:23.861+0000")
+}
+{ 
+    "_id" : NumberInt(264), 
+    "quantite" : NumberInt(6395), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(71), 
+    "date" : ISODate("2008-04-01T19:44:23.049+0000")
+}
+{ 
+    "_id" : NumberInt(209), 
+    "quantite" : NumberInt(5348), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(1), 
+    "date" : ISODate("2003-08-31T18:35:56.172+0000")
+}
+{ 
+    "_id" : NumberInt(234), 
+    "quantite" : NumberInt(7750), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("1995-03-16T07:13:33.123+0000")
+}
+{ 
+    "_id" : NumberInt(276), 
+    "quantite" : NumberInt(3065), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("2004-11-27T13:15:34.860+0000")
+}
+{ 
+    "_id" : NumberInt(279), 
+    "quantite" : NumberInt(1151), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("1993-02-22T04:39:16.403+0000")
+}
+{ 
+    "_id" : NumberInt(265), 
+    "quantite" : NumberInt(5809), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("2017-01-25T05:46:31.664+0000")
+}
+{ 
+    "_id" : NumberInt(235), 
+    "quantite" : NumberInt(5849), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(8), 
+    "date" : ISODate("1993-07-06T05:45:39.439+0000")
+}
+{ 
+    "_id" : NumberInt(245), 
+    "quantite" : NumberInt(3650), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(16), 
+    "date" : ISODate("1997-04-27T03:10:53.188+0000")
+}
+{ 
+    "_id" : NumberInt(214), 
+    "quantite" : NumberInt(4394), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(95), 
+    "date" : ISODate("2007-10-31T00:41:40.713+0000")
+}
+{ 
+    "_id" : NumberInt(229), 
+    "quantite" : NumberInt(8077), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2003-07-23T07:31:53.660+0000")
+}
+{ 
+    "_id" : NumberInt(248), 
+    "quantite" : NumberInt(2913), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("2000-01-12T21:08:48.794+0000")
+}
+{ 
+    "_id" : NumberInt(263), 
+    "quantite" : NumberInt(654), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(50), 
+    "date" : ISODate("2004-05-09T17:08:04.594+0000")
+}
+{ 
+    "_id" : NumberInt(218), 
+    "quantite" : NumberInt(989), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(60), 
+    "date" : ISODate("2010-03-21T01:35:52.565+0000")
+}
+{ 
+    "_id" : NumberInt(256), 
+    "quantite" : NumberInt(14984), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2005-08-29T11:15:26.293+0000")
+}
+{ 
+    "_id" : NumberInt(253), 
+    "quantite" : NumberInt(4437), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2020-03-09T11:38:39.820+0000")
+}
+{ 
+    "_id" : NumberInt(281), 
+    "quantite" : NumberInt(10592), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2013-09-28T17:53:09.703+0000")
+}
+{ 
+    "_id" : NumberInt(298), 
+    "quantite" : NumberInt(3018), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2014-04-24T00:19:31.846+0000")
+}
+{ 
+    "_id" : NumberInt(255), 
+    "quantite" : NumberInt(8913), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(23), 
+    "date" : ISODate("2011-06-11T16:36:58.353+0000")
+}
+{ 
+    "_id" : NumberInt(225), 
+    "quantite" : NumberInt(11460), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(16), 
+    "date" : ISODate("2014-07-10T00:03:13.704+0000")
+}
+{ 
+    "_id" : NumberInt(210), 
+    "quantite" : NumberInt(272), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2000-01-26T21:02:55.547+0000")
+}
+{ 
+    "_id" : NumberInt(241), 
+    "quantite" : NumberInt(7741), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("1995-03-26T03:29:41.774+0000")
+}
+{ 
+    "_id" : NumberInt(238), 
+    "quantite" : NumberInt(14631), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("2000-04-28T07:52:20.310+0000")
+}
+{ 
+    "_id" : NumberInt(236), 
+    "quantite" : NumberInt(10008), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(96), 
+    "date" : ISODate("1996-08-07T22:49:33.527+0000")
+}
+{ 
+    "_id" : NumberInt(217), 
+    "quantite" : NumberInt(8235), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("2007-01-11T07:37:30.573+0000")
+}
+{ 
+    "_id" : NumberInt(215), 
+    "quantite" : NumberInt(938), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2015-11-03T20:28:09.047+0000")
+}
+{ 
+    "_id" : NumberInt(247), 
+    "quantite" : NumberInt(12477), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("2012-01-07T15:42:52.249+0000")
+}
+{ 
+    "_id" : NumberInt(299), 
+    "quantite" : NumberInt(7233), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("2010-02-09T04:27:23.527+0000")
+}
+{ 
+    "_id" : NumberInt(290), 
+    "quantite" : NumberInt(3843), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(20), 
+    "date" : ISODate("2007-03-25T08:03:31.543+0000")
+}
+{ 
+    "_id" : NumberInt(206), 
+    "quantite" : NumberInt(11402), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("1996-04-04T02:55:37.159+0000")
+}
+{ 
+    "_id" : NumberInt(287), 
+    "quantite" : NumberInt(1464), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2008-11-15T00:28:41.683+0000")
+}
+{ 
+    "_id" : NumberInt(262), 
+    "quantite" : NumberInt(7220), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("2004-10-20T04:12:16.003+0000")
+}
+{ 
+    "_id" : NumberInt(213), 
+    "quantite" : NumberInt(4784), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2015-03-07T10:56:24.248+0000")
+}
+{ 
+    "_id" : NumberInt(220), 
+    "quantite" : NumberInt(6670), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("1997-12-01T22:53:54.327+0000")
+}
+{ 
+    "_id" : NumberInt(275), 
+    "quantite" : NumberInt(8940), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("2015-03-03T21:09:29.255+0000")
+}
+{ 
+    "_id" : NumberInt(227), 
+    "quantite" : NumberInt(6824), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2013-11-21T15:56:09.845+0000")
+}
+{ 
+    "_id" : NumberInt(223), 
+    "quantite" : NumberInt(10647), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2007-10-26T06:00:49.964+0000")
+}
+{ 
+    "_id" : NumberInt(297), 
+    "quantite" : NumberInt(792), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(96), 
+    "date" : ISODate("1995-09-11T00:46:17.454+0000")
+}
+{ 
+    "_id" : NumberInt(273), 
+    "quantite" : NumberInt(6192), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2012-06-15T10:58:25.144+0000")
+}
+{ 
+    "_id" : NumberInt(285), 
+    "quantite" : NumberInt(2897), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("1993-11-10T22:10:16.706+0000")
+}
+{ 
+    "_id" : NumberInt(204), 
+    "quantite" : NumberInt(5094), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(49), 
+    "date" : ISODate("2003-07-04T15:01:56.535+0000")
+}
+{ 
+    "_id" : NumberInt(270), 
+    "quantite" : NumberInt(6621), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2003-11-02T14:39:59.307+0000")
+}
+{ 
+    "_id" : NumberInt(294), 
+    "quantite" : NumberInt(3106), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(38), 
+    "date" : ISODate("1993-12-17T01:59:27.109+0000")
+}
+{ 
+    "_id" : NumberInt(258), 
+    "quantite" : NumberInt(4894), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(65), 
+    "date" : ISODate("2017-10-21T21:23:06.401+0000")
+}
+{ 
+    "_id" : NumberInt(240), 
+    "quantite" : NumberInt(3891), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2014-03-22T16:56:03.744+0000")
+}
+{ 
+    "_id" : NumberInt(207), 
+    "quantite" : NumberInt(7041), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2000-03-26T08:42:00.055+0000")
+}
+{ 
+    "_id" : NumberInt(230), 
+    "quantite" : NumberInt(11561), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2000-02-17T22:26:52.692+0000")
+}
+{ 
+    "_id" : NumberInt(226), 
+    "quantite" : NumberInt(9663), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2019-08-17T11:57:41.050+0000")
+}
+{ 
+    "_id" : NumberInt(239), 
+    "quantite" : NumberInt(7012), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2012-03-08T02:16:40.171+0000")
+}
+{ 
+    "_id" : NumberInt(250), 
+    "quantite" : NumberInt(4891), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("1999-12-31T21:34:55.830+0000")
+}
+{ 
+    "_id" : NumberInt(231), 
+    "quantite" : NumberInt(235), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2000-11-06T01:22:19.239+0000")
+}
+{ 
+    "_id" : NumberInt(259), 
+    "quantite" : NumberInt(8544), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(82), 
+    "date" : ISODate("2015-07-26T17:10:17.947+0000")
+}
+{ 
+    "_id" : NumberInt(252), 
+    "quantite" : NumberInt(13643), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(38), 
+    "date" : ISODate("2018-04-17T01:49:21.071+0000")
+}
+{ 
+    "_id" : NumberInt(289), 
+    "quantite" : NumberInt(3089), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(74), 
+    "date" : ISODate("2000-01-26T12:40:59.388+0000")
+}
+{ 
+    "_id" : NumberInt(283), 
+    "quantite" : NumberInt(4623), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(20), 
+    "date" : ISODate("2008-04-30T01:39:03.108+0000")
+}
+{ 
+    "_id" : NumberInt(224), 
+    "quantite" : NumberInt(2992), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2001-10-04T03:27:55.608+0000")
+}
+{ 
+    "_id" : NumberInt(374), 
+    "quantite" : NumberInt(13011), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(1), 
+    "date" : ISODate("2008-05-02T22:35:32.544+0000")
+}
+{ 
+    "_id" : NumberInt(367), 
+    "quantite" : NumberInt(9117), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2006-03-18T09:37:41.461+0000")
+}
+{ 
+    "_id" : NumberInt(394), 
+    "quantite" : NumberInt(1945), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2001-07-01T02:42:54.928+0000")
+}
+{ 
+    "_id" : NumberInt(360), 
+    "quantite" : NumberInt(662), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(52), 
+    "date" : ISODate("2013-05-24T00:48:05.534+0000")
+}
+{ 
+    "_id" : NumberInt(376), 
+    "quantite" : NumberInt(1377), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("2001-01-25T17:56:03.107+0000")
+}
+{ 
+    "_id" : NumberInt(329), 
+    "quantite" : NumberInt(4094), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2011-05-05T01:25:06.562+0000")
+}
+{ 
+    "_id" : NumberInt(395), 
+    "quantite" : NumberInt(117), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(97), 
+    "date" : ISODate("1999-07-07T01:02:24.541+0000")
+}
+{ 
+    "_id" : NumberInt(320), 
+    "quantite" : NumberInt(5106), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("2005-08-21T20:12:30.474+0000")
+}
+{ 
+    "_id" : NumberInt(318), 
+    "quantite" : NumberInt(13986), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(1), 
+    "date" : ISODate("2003-04-09T01:38:21.874+0000")
+}
+{ 
+    "_id" : NumberInt(305), 
+    "quantite" : NumberInt(5509), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2007-10-22T05:38:36.656+0000")
+}
+{ 
+    "_id" : NumberInt(315), 
+    "quantite" : NumberInt(13322), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("2011-12-16T17:55:15.080+0000")
+}
+{ 
+    "_id" : NumberInt(310), 
+    "quantite" : NumberInt(13037), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2018-06-08T11:05:20.111+0000")
+}
+{ 
+    "_id" : NumberInt(341), 
+    "quantite" : NumberInt(4658), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("1996-03-30T02:45:16.179+0000")
+}
+{ 
+    "_id" : NumberInt(302), 
+    "quantite" : NumberInt(6019), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(95), 
+    "date" : ISODate("1999-04-18T08:29:46.406+0000")
+}
+{ 
+    "_id" : NumberInt(338), 
+    "quantite" : NumberInt(9849), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2018-12-21T16:36:04.759+0000")
+}
+{ 
+    "_id" : NumberInt(378), 
+    "quantite" : NumberInt(10552), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("1995-10-04T11:59:48.097+0000")
+}
+{ 
+    "_id" : NumberInt(387), 
+    "quantite" : NumberInt(6544), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2012-10-31T03:59:18.376+0000")
+}
+{ 
+    "_id" : NumberInt(385), 
+    "quantite" : NumberInt(2113), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2010-09-12T05:30:25.057+0000")
+}
+{ 
+    "_id" : NumberInt(362), 
+    "quantite" : NumberInt(668), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2011-05-21T05:47:31.854+0000")
+}
+{ 
+    "_id" : NumberInt(340), 
+    "quantite" : NumberInt(13783), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("2016-03-24T13:24:18.261+0000")
+}
+{ 
+    "_id" : NumberInt(364), 
+    "quantite" : NumberInt(1311), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(4), 
+    "date" : ISODate("1994-02-24T08:29:53.919+0000")
+}
+{ 
+    "_id" : NumberInt(369), 
+    "quantite" : NumberInt(4946), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("2010-09-05T01:51:27.440+0000")
+}
+{ 
+    "_id" : NumberInt(303), 
+    "quantite" : NumberInt(4934), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("2017-01-11T03:45:11.225+0000")
+}
+{ 
+    "_id" : NumberInt(382), 
+    "quantite" : NumberInt(241), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2007-05-15T04:28:59.749+0000")
+}
+{ 
+    "_id" : NumberInt(388), 
+    "quantite" : NumberInt(9013), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(96), 
+    "date" : ISODate("2020-03-01T07:35:02.915+0000")
+}
+{ 
+    "_id" : NumberInt(339), 
+    "quantite" : NumberInt(2727), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("1994-10-18T14:03:29.414+0000")
+}
+{ 
+    "_id" : NumberInt(316), 
+    "quantite" : NumberInt(6504), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2010-12-08T08:32:38.504+0000")
+}
+{ 
+    "_id" : NumberInt(365), 
+    "quantite" : NumberInt(12445), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(84), 
+    "date" : ISODate("2002-07-13T14:42:25.240+0000")
+}
+{ 
+    "_id" : NumberInt(396), 
+    "quantite" : NumberInt(9625), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(72), 
+    "date" : ISODate("2003-04-27T22:05:52.524+0000")
+}
+{ 
+    "_id" : NumberInt(358), 
+    "quantite" : NumberInt(8681), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2014-12-01T21:36:59.033+0000")
+}
+{ 
+    "_id" : NumberInt(392), 
+    "quantite" : NumberInt(13741), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("1996-11-07T12:20:28.729+0000")
+}
+{ 
+    "_id" : NumberInt(377), 
+    "quantite" : NumberInt(4083), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("2000-09-14T21:43:21.198+0000")
+}
+{ 
+    "_id" : NumberInt(370), 
+    "quantite" : NumberInt(1480), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("1997-10-20T12:40:06.270+0000")
+}
+{ 
+    "_id" : NumberInt(331), 
+    "quantite" : NumberInt(1624), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2013-11-22T11:11:55.715+0000")
+}
+{ 
+    "_id" : NumberInt(391), 
+    "quantite" : NumberInt(3333), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2017-08-10T22:57:39.836+0000")
+}
+{ 
+    "_id" : NumberInt(348), 
+    "quantite" : NumberInt(8309), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2008-08-06T05:51:09.121+0000")
+}
+{ 
+    "_id" : NumberInt(330), 
+    "quantite" : NumberInt(5197), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("2015-08-14T17:11:44.048+0000")
+}
+{ 
+    "_id" : NumberInt(386), 
+    "quantite" : NumberInt(10504), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(30), 
+    "date" : ISODate("2005-01-25T21:33:57.243+0000")
+}
+{ 
+    "_id" : NumberInt(397), 
+    "quantite" : NumberInt(5988), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(84), 
+    "date" : ISODate("2001-10-21T14:56:21.167+0000")
+}
+{ 
+    "_id" : NumberInt(352), 
+    "quantite" : NumberInt(4336), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(8), 
+    "date" : ISODate("2010-08-01T16:13:00.968+0000")
+}
+{ 
+    "_id" : NumberInt(321), 
+    "quantite" : NumberInt(6185), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("1993-02-17T02:41:54.558+0000")
+}
+{ 
+    "_id" : NumberInt(343), 
+    "quantite" : NumberInt(8261), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("2006-06-23T06:32:01.963+0000")
+}
+{ 
+    "_id" : NumberInt(361), 
+    "quantite" : NumberInt(8320), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("1996-03-06T04:44:23.636+0000")
+}
+{ 
+    "_id" : NumberInt(306), 
+    "quantite" : NumberInt(3281), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("1993-01-31T21:01:12.880+0000")
+}
+{ 
+    "_id" : NumberInt(381), 
+    "quantite" : NumberInt(5697), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(67), 
+    "date" : ISODate("2006-11-02T09:39:10.670+0000")
+}
+{ 
+    "_id" : NumberInt(324), 
+    "quantite" : NumberInt(5638), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(81), 
+    "date" : ISODate("1994-02-17T18:09:05.727+0000")
+}
+{ 
+    "_id" : NumberInt(323), 
+    "quantite" : NumberInt(6634), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2016-06-17T12:14:36.947+0000")
+}
+{ 
+    "_id" : NumberInt(373), 
+    "quantite" : NumberInt(5968), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2020-02-15T08:28:36.477+0000")
+}
+{ 
+    "_id" : NumberInt(317), 
+    "quantite" : NumberInt(14645), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(30), 
+    "date" : ISODate("2016-10-07T21:49:13.212+0000")
+}
+{ 
+    "_id" : NumberInt(389), 
+    "quantite" : NumberInt(14854), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("2010-10-09T12:40:53.781+0000")
+}
+{ 
+    "_id" : NumberInt(344), 
+    "quantite" : NumberInt(14493), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("1998-03-23T02:16:19.646+0000")
+}
+{ 
+    "_id" : NumberInt(328), 
+    "quantite" : NumberInt(11722), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(24), 
+    "date" : ISODate("2015-09-09T19:40:13.549+0000")
+}
+{ 
+    "_id" : NumberInt(300), 
+    "quantite" : NumberInt(12042), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(36), 
+    "date" : ISODate("2015-07-28T00:45:56.116+0000")
+}
+{ 
+    "_id" : NumberInt(325), 
+    "quantite" : NumberInt(829), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("2009-08-14T00:38:11.982+0000")
+}
+{ 
+    "_id" : NumberInt(307), 
+    "quantite" : NumberInt(1445), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(23), 
+    "date" : ISODate("1998-12-01T11:09:39.057+0000")
+}
+{ 
+    "_id" : NumberInt(375), 
+    "quantite" : NumberInt(4643), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("1998-01-01T15:45:03.868+0000")
+}
+{ 
+    "_id" : NumberInt(400), 
+    "quantite" : NumberInt(10948), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("1996-07-07T23:22:44.608+0000")
+}
+{ 
+    "_id" : NumberInt(371), 
+    "quantite" : NumberInt(7202), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(33), 
+    "date" : ISODate("2007-04-15T09:34:22.156+0000")
+}
+{ 
+    "_id" : NumberInt(351), 
+    "quantite" : NumberInt(14414), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2013-07-31T20:10:35.406+0000")
+}
+{ 
+    "_id" : NumberInt(347), 
+    "quantite" : NumberInt(14791), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(72), 
+    "date" : ISODate("2007-10-07T01:03:03.252+0000")
+}
+{ 
+    "_id" : NumberInt(354), 
+    "quantite" : NumberInt(13110), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("2013-03-30T16:58:19.207+0000")
+}
+{ 
+    "_id" : NumberInt(398), 
+    "quantite" : NumberInt(11237), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2004-09-11T17:00:23.860+0000")
+}
+{ 
+    "_id" : NumberInt(349), 
+    "quantite" : NumberInt(1842), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(91), 
+    "date" : ISODate("2019-02-03T16:34:39.511+0000")
+}
+{ 
+    "_id" : NumberInt(345), 
+    "quantite" : NumberInt(393), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(4), 
+    "date" : ISODate("2003-05-17T12:11:24.287+0000")
+}
+{ 
+    "_id" : NumberInt(337), 
+    "quantite" : NumberInt(3012), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(91), 
+    "date" : ISODate("1996-02-15T16:53:48.301+0000")
+}
+{ 
+    "_id" : NumberInt(357), 
+    "quantite" : NumberInt(13838), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2011-06-12T05:38:19.418+0000")
+}
+{ 
+    "_id" : NumberInt(332), 
+    "quantite" : NumberInt(7567), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("1995-12-08T19:58:12.277+0000")
+}
+{ 
+    "_id" : NumberInt(393), 
+    "quantite" : NumberInt(5276), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(92), 
+    "date" : ISODate("1993-02-02T02:31:12.250+0000")
+}
+{ 
+    "_id" : NumberInt(353), 
+    "quantite" : NumberInt(12874), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("1993-05-12T04:43:03.717+0000")
+}
+{ 
+    "_id" : NumberInt(366), 
+    "quantite" : NumberInt(2667), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("2019-04-13T16:34:33.899+0000")
+}
+{ 
+    "_id" : NumberInt(314), 
+    "quantite" : NumberInt(2016), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(78), 
+    "date" : ISODate("2014-02-01T10:01:34.160+0000")
+}
+{ 
+    "_id" : NumberInt(334), 
+    "quantite" : NumberInt(3897), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2001-10-03T19:32:33.595+0000")
+}
+{ 
+    "_id" : NumberInt(322), 
+    "quantite" : NumberInt(13689), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2012-01-01T11:38:50.526+0000")
+}
+{ 
+    "_id" : NumberInt(356), 
+    "quantite" : NumberInt(10048), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(74), 
+    "date" : ISODate("2003-08-16T04:05:50.809+0000")
+}
+{ 
+    "_id" : NumberInt(346), 
+    "quantite" : NumberInt(13187), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("2003-08-25T07:03:39.953+0000")
+}
+{ 
+    "_id" : NumberInt(390), 
+    "quantite" : NumberInt(4800), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2019-01-31T08:00:23.916+0000")
+}
+{ 
+    "_id" : NumberInt(327), 
+    "quantite" : NumberInt(9406), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(82), 
+    "date" : ISODate("1998-08-06T07:29:34.414+0000")
+}
+{ 
+    "_id" : NumberInt(350), 
+    "quantite" : NumberInt(7132), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2013-05-05T08:48:02.238+0000")
+}
+{ 
+    "_id" : NumberInt(308), 
+    "quantite" : NumberInt(7325), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("1996-01-30T17:56:29.942+0000")
+}
+{ 
+    "_id" : NumberInt(313), 
+    "quantite" : NumberInt(10039), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(33), 
+    "date" : ISODate("2001-12-20T22:43:33.016+0000")
+}
+{ 
+    "_id" : NumberInt(379), 
+    "quantite" : NumberInt(4509), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(30), 
+    "date" : ISODate("2000-01-25T21:44:00.204+0000")
+}
+{ 
+    "_id" : NumberInt(384), 
+    "quantite" : NumberInt(13479), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("2013-05-21T06:27:21.166+0000")
+}
+{ 
+    "_id" : NumberInt(399), 
+    "quantite" : NumberInt(311), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2017-07-13T14:40:49.559+0000")
+}
+{ 
+    "_id" : NumberInt(359), 
+    "quantite" : NumberInt(6507), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("1996-02-25T06:50:23.863+0000")
+}
+{ 
+    "_id" : NumberInt(304), 
+    "quantite" : NumberInt(3381), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(55), 
+    "date" : ISODate("2005-07-21T13:33:22.978+0000")
+}
+{ 
+    "_id" : NumberInt(311), 
+    "quantite" : NumberInt(9210), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(78), 
+    "date" : ISODate("2011-11-21T16:28:35.424+0000")
+}
+{ 
+    "_id" : NumberInt(301), 
+    "quantite" : NumberInt(8696), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(36), 
+    "date" : ISODate("1993-02-09T07:11:50.761+0000")
+}
+{ 
+    "_id" : NumberInt(383), 
+    "quantite" : NumberInt(2472), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(36), 
+    "date" : ISODate("1995-03-07T16:18:12.417+0000")
+}
+{ 
+    "_id" : NumberInt(489), 
+    "quantite" : NumberInt(908), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2015-01-08T04:17:22.516+0000")
+}
+{ 
+    "_id" : NumberInt(440), 
+    "quantite" : NumberInt(166), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("1998-09-04T17:25:43.443+0000")
+}
+{ 
+    "_id" : NumberInt(427), 
+    "quantite" : NumberInt(9548), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2008-11-23T11:51:04.019+0000")
+}
+{ 
+    "_id" : NumberInt(477), 
+    "quantite" : NumberInt(5385), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(53), 
+    "date" : ISODate("1995-08-04T14:08:38.093+0000")
+}
+{ 
+    "_id" : NumberInt(436), 
+    "quantite" : NumberInt(637), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(74), 
+    "date" : ISODate("2004-09-22T09:03:36.782+0000")
+}
+{ 
+    "_id" : NumberInt(415), 
+    "quantite" : NumberInt(5956), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(12), 
+    "date" : ISODate("2001-09-23T22:50:44.322+0000")
+}
+{ 
+    "_id" : NumberInt(499), 
+    "quantite" : NumberInt(1731), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(52), 
+    "date" : ISODate("2001-09-24T11:38:55.185+0000")
+}
+{ 
+    "_id" : NumberInt(439), 
+    "quantite" : NumberInt(10756), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2017-10-31T05:31:10.539+0000")
+}
+{ 
+    "_id" : NumberInt(458), 
+    "quantite" : NumberInt(9040), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("1999-12-01T11:49:09.356+0000")
+}
+{ 
+    "_id" : NumberInt(418), 
+    "quantite" : NumberInt(11852), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("2018-11-16T05:00:31.519+0000")
+}
+{ 
+    "_id" : NumberInt(433), 
+    "quantite" : NumberInt(12698), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("2006-10-12T22:12:35.146+0000")
+}
+{ 
+    "_id" : NumberInt(491), 
+    "quantite" : NumberInt(2894), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("2004-03-17T19:49:27.235+0000")
+}
+{ 
+    "_id" : NumberInt(419), 
+    "quantite" : NumberInt(14966), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2008-06-03T15:57:34.245+0000")
+}
+{ 
+    "_id" : NumberInt(479), 
+    "quantite" : NumberInt(1637), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2012-05-10T11:39:43.365+0000")
+}
+{ 
+    "_id" : NumberInt(471), 
+    "quantite" : NumberInt(5333), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2020-04-19T08:14:08.162+0000")
+}
+{ 
+    "_id" : NumberInt(426), 
+    "quantite" : NumberInt(5494), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2016-07-02T21:34:19.979+0000")
+}
+{ 
+    "_id" : NumberInt(449), 
+    "quantite" : NumberInt(2477), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(60), 
+    "date" : ISODate("2018-10-20T03:37:14.356+0000")
+}
+{ 
+    "_id" : NumberInt(488), 
+    "quantite" : NumberInt(2282), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("1999-06-30T18:41:49.615+0000")
+}
+{ 
+    "_id" : NumberInt(416), 
+    "quantite" : NumberInt(6446), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("2019-10-09T08:01:01.237+0000")
+}
+{ 
+    "_id" : NumberInt(437), 
+    "quantite" : NumberInt(2218), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2015-05-29T13:34:01.269+0000")
+}
+{ 
+    "_id" : NumberInt(438), 
+    "quantite" : NumberInt(6607), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(71), 
+    "date" : ISODate("2017-08-18T13:42:15.072+0000")
+}
+{ 
+    "_id" : NumberInt(432), 
+    "quantite" : NumberInt(14348), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2018-04-16T03:26:32.860+0000")
+}
+{ 
+    "_id" : NumberInt(441), 
+    "quantite" : NumberInt(1554), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2019-03-20T14:46:18.256+0000")
+}
+{ 
+    "_id" : NumberInt(453), 
+    "quantite" : NumberInt(12687), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("2000-08-07T18:26:08.178+0000")
+}
+{ 
+    "_id" : NumberInt(454), 
+    "quantite" : NumberInt(14744), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(49), 
+    "date" : ISODate("1999-10-16T10:29:29.770+0000")
+}
+{ 
+    "_id" : NumberInt(444), 
+    "quantite" : NumberInt(7736), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("1994-09-20T18:15:02.947+0000")
+}
+{ 
+    "_id" : NumberInt(466), 
+    "quantite" : NumberInt(12124), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2007-08-20T17:48:35.508+0000")
+}
+{ 
+    "_id" : NumberInt(413), 
+    "quantite" : NumberInt(13000), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("1994-12-02T14:17:53.672+0000")
+}
+{ 
+    "_id" : NumberInt(473), 
+    "quantite" : NumberInt(10739), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2017-03-03T10:07:41.782+0000")
+}
+{ 
+    "_id" : NumberInt(420), 
+    "quantite" : NumberInt(7305), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(60), 
+    "date" : ISODate("2009-05-29T08:17:38.341+0000")
+}
+{ 
+    "_id" : NumberInt(450), 
+    "quantite" : NumberInt(11804), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2018-05-22T20:34:05.668+0000")
+}
+{ 
+    "_id" : NumberInt(482), 
+    "quantite" : NumberInt(5456), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2014-02-18T14:14:17.130+0000")
+}
+{ 
+    "_id" : NumberInt(435), 
+    "quantite" : NumberInt(5440), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("2003-10-22T15:19:49.223+0000")
+}
+{ 
+    "_id" : NumberInt(401), 
+    "quantite" : NumberInt(7229), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2001-01-27T12:55:04.362+0000")
+}
+{ 
+    "_id" : NumberInt(414), 
+    "quantite" : NumberInt(6334), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2015-04-12T08:52:31.244+0000")
+}
+{ 
+    "_id" : NumberInt(405), 
+    "quantite" : NumberInt(2608), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(88), 
+    "date" : ISODate("2012-01-07T21:39:56.240+0000")
+}
+{ 
+    "_id" : NumberInt(425), 
+    "quantite" : NumberInt(12980), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(95), 
+    "date" : ISODate("2013-06-16T11:06:08.700+0000")
+}
+{ 
+    "_id" : NumberInt(492), 
+    "quantite" : NumberInt(8658), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("1999-04-25T22:13:02.617+0000")
+}
+{ 
+    "_id" : NumberInt(421), 
+    "quantite" : NumberInt(13968), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("2006-05-10T23:18:37.846+0000")
+}
+{ 
+    "_id" : NumberInt(476), 
+    "quantite" : NumberInt(10310), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("2000-10-19T15:29:53.799+0000")
+}
+{ 
+    "_id" : NumberInt(475), 
+    "quantite" : NumberInt(528), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("2016-01-03T23:30:36.751+0000")
+}
+{ 
+    "_id" : NumberInt(407), 
+    "quantite" : NumberInt(9217), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2001-04-25T09:47:50.409+0000")
+}
+{ 
+    "_id" : NumberInt(481), 
+    "quantite" : NumberInt(7177), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(95), 
+    "date" : ISODate("2015-02-06T15:36:20.105+0000")
+}
+{ 
+    "_id" : NumberInt(490), 
+    "quantite" : NumberInt(10233), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2018-11-19T23:34:03.249+0000")
+}
+{ 
+    "_id" : NumberInt(446), 
+    "quantite" : NumberInt(5775), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2006-12-03T19:09:29.879+0000")
+}
+{ 
+    "_id" : NumberInt(406), 
+    "quantite" : NumberInt(14619), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2011-01-06T09:49:17.906+0000")
+}
+{ 
+    "_id" : NumberInt(495), 
+    "quantite" : NumberInt(1544), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("1998-03-16T16:30:18.104+0000")
+}
+{ 
+    "_id" : NumberInt(483), 
+    "quantite" : NumberInt(81), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1994-12-19T16:07:11.214+0000")
+}
+{ 
+    "_id" : NumberInt(402), 
+    "quantite" : NumberInt(4320), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2020-01-25T05:59:55.612+0000")
+}
+{ 
+    "_id" : NumberInt(434), 
+    "quantite" : NumberInt(2486), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(13), 
+    "date" : ISODate("2009-10-05T17:07:52.462+0000")
+}
+{ 
+    "_id" : NumberInt(459), 
+    "quantite" : NumberInt(9571), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2006-11-16T23:04:44.242+0000")
+}
+{ 
+    "_id" : NumberInt(447), 
+    "quantite" : NumberInt(6457), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(38), 
+    "date" : ISODate("2015-04-08T21:14:12.042+0000")
+}
+{ 
+    "_id" : NumberInt(448), 
+    "quantite" : NumberInt(3672), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("2010-08-14T06:42:41.314+0000")
+}
+{ 
+    "_id" : NumberInt(478), 
+    "quantite" : NumberInt(7977), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2004-02-02T10:54:21.714+0000")
+}
+{ 
+    "_id" : NumberInt(409), 
+    "quantite" : NumberInt(12611), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(82), 
+    "date" : ISODate("2009-04-12T16:38:17.799+0000")
+}
+{ 
+    "_id" : NumberInt(403), 
+    "quantite" : NumberInt(9996), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("2004-07-23T06:17:49.350+0000")
+}
+{ 
+    "_id" : NumberInt(470), 
+    "quantite" : NumberInt(9509), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2012-08-28T21:17:04.937+0000")
+}
+{ 
+    "_id" : NumberInt(460), 
+    "quantite" : NumberInt(10377), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(53), 
+    "date" : ISODate("2009-02-13T10:34:47.385+0000")
+}
+{ 
+    "_id" : NumberInt(429), 
+    "quantite" : NumberInt(2099), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2015-09-20T04:55:39.531+0000")
+}
+{ 
+    "_id" : NumberInt(431), 
+    "quantite" : NumberInt(5640), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("1996-02-28T12:23:38.172+0000")
+}
+{ 
+    "_id" : NumberInt(626), 
+    "quantite" : NumberInt(12520), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2016-03-27T18:57:56.290+0000")
+}
+{ 
+    "_id" : NumberInt(663), 
+    "quantite" : NumberInt(3210), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(52), 
+    "date" : ISODate("2009-02-21T04:04:37.050+0000")
+}
+{ 
+    "_id" : NumberInt(612), 
+    "quantite" : NumberInt(11597), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2001-02-19T17:42:38.224+0000")
+}
+{ 
+    "_id" : NumberInt(600), 
+    "quantite" : NumberInt(537), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2010-10-24T00:40:40.766+0000")
+}
+{ 
+    "_id" : NumberInt(661), 
+    "quantite" : NumberInt(1107), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("1994-06-22T22:27:57.793+0000")
+}
+{ 
+    "_id" : NumberInt(662), 
+    "quantite" : NumberInt(264), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2001-11-13T06:17:44.342+0000")
+}
+{ 
+    "_id" : NumberInt(685), 
+    "quantite" : NumberInt(364), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2000-10-19T21:55:00.788+0000")
+}
+{ 
+    "_id" : NumberInt(660), 
+    "quantite" : NumberInt(2147), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("2010-04-09T17:24:11.332+0000")
+}
+{ 
+    "_id" : NumberInt(696), 
+    "quantite" : NumberInt(10978), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(87), 
+    "date" : ISODate("2012-09-03T11:12:49.536+0000")
+}
+{ 
+    "_id" : NumberInt(606), 
+    "quantite" : NumberInt(13470), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2009-08-11T04:23:23.907+0000")
+}
+{ 
+    "_id" : NumberInt(642), 
+    "quantite" : NumberInt(9338), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2018-07-02T13:27:55.102+0000")
+}
+{ 
+    "_id" : NumberInt(657), 
+    "quantite" : NumberInt(11492), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(95), 
+    "date" : ISODate("2013-09-16T10:45:41.224+0000")
+}
+{ 
+    "_id" : NumberInt(616), 
+    "quantite" : NumberInt(5625), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(38), 
+    "date" : ISODate("1994-09-02T12:17:40.988+0000")
+}
+{ 
+    "_id" : NumberInt(680), 
+    "quantite" : NumberInt(775), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("2019-11-09T16:36:06.147+0000")
+}
+{ 
+    "_id" : NumberInt(667), 
+    "quantite" : NumberInt(8548), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(86), 
+    "date" : ISODate("2009-08-20T21:59:56.832+0000")
+}
+{ 
+    "_id" : NumberInt(666), 
+    "quantite" : NumberInt(1302), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(36), 
+    "date" : ISODate("1998-03-09T12:39:03.051+0000")
+}
+{ 
+    "_id" : NumberInt(633), 
+    "quantite" : NumberInt(13974), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("2004-03-19T08:34:13.229+0000")
+}
+{ 
+    "_id" : NumberInt(692), 
+    "quantite" : NumberInt(12785), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(94), 
+    "date" : ISODate("2001-11-30T16:23:11.493+0000")
+}
+{ 
+    "_id" : NumberInt(699), 
+    "quantite" : NumberInt(5505), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(5), 
+    "date" : ISODate("1995-12-03T22:44:45.363+0000")
+}
+{ 
+    "_id" : NumberInt(629), 
+    "quantite" : NumberInt(13280), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2013-05-29T19:41:56.439+0000")
+}
+{ 
+    "_id" : NumberInt(646), 
+    "quantite" : NumberInt(14622), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2019-05-02T20:57:14.895+0000")
+}
+{ 
+    "_id" : NumberInt(601), 
+    "quantite" : NumberInt(525), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2005-03-08T05:31:00.479+0000")
+}
+{ 
+    "_id" : NumberInt(650), 
+    "quantite" : NumberInt(9244), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2012-11-02T16:40:21.617+0000")
+}
+{ 
+    "_id" : NumberInt(623), 
+    "quantite" : NumberInt(10259), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2011-04-28T04:35:08.506+0000")
+}
+{ 
+    "_id" : NumberInt(613), 
+    "quantite" : NumberInt(4106), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("2000-03-02T05:20:17.051+0000")
+}
+{ 
+    "_id" : NumberInt(627), 
+    "quantite" : NumberInt(481), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("2003-05-18T03:56:14.750+0000")
+}
+{ 
+    "_id" : NumberInt(630), 
+    "quantite" : NumberInt(1074), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(91), 
+    "date" : ISODate("2000-07-09T02:05:32.718+0000")
+}
+{ 
+    "_id" : NumberInt(686), 
+    "quantite" : NumberInt(7151), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("2015-04-19T03:38:03.296+0000")
+}
+{ 
+    "_id" : NumberInt(674), 
+    "quantite" : NumberInt(3996), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2011-01-13T01:58:20.544+0000")
+}
+{ 
+    "_id" : NumberInt(636), 
+    "quantite" : NumberInt(2051), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(86), 
+    "date" : ISODate("2001-07-20T05:26:45.155+0000")
+}
+{ 
+    "_id" : NumberInt(697), 
+    "quantite" : NumberInt(3029), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(71), 
+    "date" : ISODate("1995-02-02T14:58:39.243+0000")
+}
+{ 
+    "_id" : NumberInt(671), 
+    "quantite" : NumberInt(6386), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2005-06-30T20:39:38.275+0000")
+}
+{ 
+    "_id" : NumberInt(617), 
+    "quantite" : NumberInt(8890), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2005-01-12T13:04:34.723+0000")
+}
+{ 
+    "_id" : NumberInt(619), 
+    "quantite" : NumberInt(13393), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("2018-01-12T07:13:05.706+0000")
+}
+{ 
+    "_id" : NumberInt(664), 
+    "quantite" : NumberInt(14800), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2002-01-30T01:44:28.180+0000")
+}
+{ 
+    "_id" : NumberInt(681), 
+    "quantite" : NumberInt(9452), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("2017-01-15T03:00:49.258+0000")
+}
+{ 
+    "_id" : NumberInt(653), 
+    "quantite" : NumberInt(14944), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(65), 
+    "date" : ISODate("2016-12-29T04:59:42.252+0000")
+}
+{ 
+    "_id" : NumberInt(603), 
+    "quantite" : NumberInt(11983), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2012-04-08T16:10:58.154+0000")
+}
+{ 
+    "_id" : NumberInt(614), 
+    "quantite" : NumberInt(7250), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("1993-06-25T12:58:14.219+0000")
+}
+{ 
+    "_id" : NumberInt(645), 
+    "quantite" : NumberInt(4343), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("2011-06-25T02:38:29.219+0000")
+}
+{ 
+    "_id" : NumberInt(609), 
+    "quantite" : NumberInt(2904), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(94), 
+    "date" : ISODate("2011-06-30T00:45:10.066+0000")
+}
+{ 
+    "_id" : NumberInt(639), 
+    "quantite" : NumberInt(8123), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(37), 
+    "date" : ISODate("2016-09-12T05:23:21.134+0000")
+}
+{ 
+    "_id" : NumberInt(679), 
+    "quantite" : NumberInt(5696), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(8), 
+    "date" : ISODate("2015-09-13T00:06:19.179+0000")
+}
+{ 
+    "_id" : NumberInt(640), 
+    "quantite" : NumberInt(3427), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2017-07-13T06:26:31.533+0000")
+}
+{ 
+    "_id" : NumberInt(637), 
+    "quantite" : NumberInt(5724), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(4), 
+    "date" : ISODate("2016-07-04T05:56:45.438+0000")
+}
+{ 
+    "_id" : NumberInt(610), 
+    "quantite" : NumberInt(7083), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(41), 
+    "date" : ISODate("1993-01-23T07:09:43.915+0000")
+}
+{ 
+    "_id" : NumberInt(624), 
+    "quantite" : NumberInt(10207), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("2009-06-24T20:26:30.142+0000")
+}
+{ 
+    "_id" : NumberInt(688), 
+    "quantite" : NumberInt(13119), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("1995-05-04T21:28:45.656+0000")
+}
+{ 
+    "_id" : NumberInt(631), 
+    "quantite" : NumberInt(8063), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(55), 
+    "date" : ISODate("2004-04-11T12:32:44.897+0000")
+}
+{ 
+    "_id" : NumberInt(695), 
+    "quantite" : NumberInt(2697), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("2015-06-25T08:21:29.073+0000")
+}
+{ 
+    "_id" : NumberInt(682), 
+    "quantite" : NumberInt(6969), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2014-01-26T12:53:38.002+0000")
+}
+{ 
+    "_id" : NumberInt(693), 
+    "quantite" : NumberInt(7189), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(54), 
+    "date" : ISODate("2011-01-22T16:42:34.688+0000")
+}
+{ 
+    "_id" : NumberInt(683), 
+    "quantite" : NumberInt(5896), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(10), 
+    "date" : ISODate("2016-12-01T13:51:18.333+0000")
+}
+{ 
+    "_id" : NumberInt(658), 
+    "quantite" : NumberInt(4046), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(37), 
+    "date" : ISODate("2001-09-09T02:30:45.954+0000")
+}
+{ 
+    "_id" : NumberInt(608), 
+    "quantite" : NumberInt(13849), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(60), 
+    "date" : ISODate("2003-11-27T21:52:54.647+0000")
+}
+{ 
+    "_id" : NumberInt(621), 
+    "quantite" : NumberInt(4710), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2001-02-23T13:55:00.821+0000")
+}
+{ 
+    "_id" : NumberInt(648), 
+    "quantite" : NumberInt(10169), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(81), 
+    "date" : ISODate("2008-12-22T04:58:13.365+0000")
+}
+{ 
+    "_id" : NumberInt(677), 
+    "quantite" : NumberInt(5098), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("1995-09-20T02:02:05.517+0000")
+}
+{ 
+    "_id" : NumberInt(634), 
+    "quantite" : NumberInt(10567), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("2010-06-24T22:08:58.464+0000")
+}
+{ 
+    "_id" : NumberInt(618), 
+    "quantite" : NumberInt(2094), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(64), 
+    "date" : ISODate("1999-12-12T18:07:44.662+0000")
+}
+{ 
+    "_id" : NumberInt(700), 
+    "quantite" : NumberInt(10494), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2000-11-11T23:03:26.327+0000")
+}
+{ 
+    "_id" : NumberInt(774), 
+    "quantite" : NumberInt(2709), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2010-06-16T05:17:40.717+0000")
+}
+{ 
+    "_id" : NumberInt(800), 
+    "quantite" : NumberInt(6092), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2017-01-27T23:36:15.629+0000")
+}
+{ 
+    "_id" : NumberInt(743), 
+    "quantite" : NumberInt(7913), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2008-12-14T21:03:34.886+0000")
+}
+{ 
+    "_id" : NumberInt(766), 
+    "quantite" : NumberInt(2475), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("2015-02-18T14:27:24.577+0000")
+}
+{ 
+    "_id" : NumberInt(761), 
+    "quantite" : NumberInt(7001), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(72), 
+    "date" : ISODate("2011-10-15T04:54:08.064+0000")
+}
+{ 
+    "_id" : NumberInt(744), 
+    "quantite" : NumberInt(4668), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(41), 
+    "date" : ISODate("1993-04-12T10:59:02.344+0000")
+}
+{ 
+    "_id" : NumberInt(785), 
+    "quantite" : NumberInt(1275), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(49), 
+    "date" : ISODate("2014-04-23T09:52:58.787+0000")
+}
+{ 
+    "_id" : NumberInt(733), 
+    "quantite" : NumberInt(3228), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(8), 
+    "date" : ISODate("2003-01-29T06:08:20.628+0000")
+}
+{ 
+    "_id" : NumberInt(707), 
+    "quantite" : NumberInt(7187), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("2013-10-03T17:46:58.866+0000")
+}
+{ 
+    "_id" : NumberInt(713), 
+    "quantite" : NumberInt(204), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(47), 
+    "date" : ISODate("2019-12-17T03:17:38.719+0000")
+}
+{ 
+    "_id" : NumberInt(765), 
+    "quantite" : NumberInt(4362), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2005-06-13T13:13:46.655+0000")
+}
+{ 
+    "_id" : NumberInt(769), 
+    "quantite" : NumberInt(1560), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(81), 
+    "date" : ISODate("2014-08-21T05:30:54.328+0000")
+}
+{ 
+    "_id" : NumberInt(754), 
+    "quantite" : NumberInt(4774), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2009-05-29T04:34:36.360+0000")
+}
+{ 
+    "_id" : NumberInt(756), 
+    "quantite" : NumberInt(4336), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(4), 
+    "date" : ISODate("2002-04-14T04:43:15.031+0000")
+}
+{ 
+    "_id" : NumberInt(760), 
+    "quantite" : NumberInt(4117), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2016-03-25T04:53:55.424+0000")
+}
+{ 
+    "_id" : NumberInt(703), 
+    "quantite" : NumberInt(1518), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2017-02-19T10:10:34.797+0000")
+}
+{ 
+    "_id" : NumberInt(701), 
+    "quantite" : NumberInt(8545), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2008-12-02T15:42:18.369+0000")
+}
+{ 
+    "_id" : NumberInt(734), 
+    "quantite" : NumberInt(11100), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("1995-01-13T17:29:11.356+0000")
+}
+{ 
+    "_id" : NumberInt(722), 
+    "quantite" : NumberInt(4789), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2010-09-11T22:45:10.298+0000")
+}
+{ 
+    "_id" : NumberInt(748), 
+    "quantite" : NumberInt(144), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(27), 
+    "date" : ISODate("1994-12-12T18:39:37.779+0000")
+}
+{ 
+    "_id" : NumberInt(796), 
+    "quantite" : NumberInt(13194), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2010-06-25T18:03:29.867+0000")
+}
+{ 
+    "_id" : NumberInt(752), 
+    "quantite" : NumberInt(11105), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(12), 
+    "date" : ISODate("2017-09-23T15:00:23.626+0000")
+}
+{ 
+    "_id" : NumberInt(776), 
+    "quantite" : NumberInt(3401), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2012-04-11T17:06:48.972+0000")
+}
+{ 
+    "_id" : NumberInt(790), 
+    "quantite" : NumberInt(8478), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(72), 
+    "date" : ISODate("2006-02-19T03:50:11.654+0000")
+}
+{ 
+    "_id" : NumberInt(778), 
+    "quantite" : NumberInt(12458), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2020-01-04T12:54:23.253+0000")
+}
+{ 
+    "_id" : NumberInt(787), 
+    "quantite" : NumberInt(435), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("1994-02-01T09:52:14.417+0000")
+}
+{ 
+    "_id" : NumberInt(721), 
+    "quantite" : NumberInt(3275), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(74), 
+    "date" : ISODate("1999-01-25T20:02:32.254+0000")
+}
+{ 
+    "_id" : NumberInt(753), 
+    "quantite" : NumberInt(8136), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("2007-01-23T11:59:34.806+0000")
+}
+{ 
+    "_id" : NumberInt(767), 
+    "quantite" : NumberInt(7378), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(1), 
+    "date" : ISODate("2016-09-07T08:26:59.381+0000")
+}
+{ 
+    "_id" : NumberInt(712), 
+    "quantite" : NumberInt(6513), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2019-03-06T03:53:48.228+0000")
+}
+{ 
+    "_id" : NumberInt(710), 
+    "quantite" : NumberInt(571), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("2007-09-28T03:13:49.622+0000")
+}
+{ 
+    "_id" : NumberInt(779), 
+    "quantite" : NumberInt(1804), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(71), 
+    "date" : ISODate("2014-03-04T09:00:46.486+0000")
+}
+{ 
+    "_id" : NumberInt(768), 
+    "quantite" : NumberInt(5810), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(12), 
+    "date" : ISODate("2012-01-02T22:31:08.008+0000")
+}
+{ 
+    "_id" : NumberInt(771), 
+    "quantite" : NumberInt(9779), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(45), 
+    "date" : ISODate("2011-04-18T17:14:16.059+0000")
+}
+{ 
+    "_id" : NumberInt(755), 
+    "quantite" : NumberInt(4614), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(6), 
+    "date" : ISODate("2009-09-14T05:57:26.908+0000")
+}
+{ 
+    "_id" : NumberInt(747), 
+    "quantite" : NumberInt(6715), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(88), 
+    "date" : ISODate("2018-10-21T18:25:48.429+0000")
+}
+{ 
+    "_id" : NumberInt(711), 
+    "quantite" : NumberInt(289), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(76), 
+    "date" : ISODate("2008-09-08T11:12:51.294+0000")
+}
+{ 
+    "_id" : NumberInt(792), 
+    "quantite" : NumberInt(4969), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(37), 
+    "date" : ISODate("2000-02-01T15:56:07.678+0000")
+}
+{ 
+    "_id" : NumberInt(795), 
+    "quantite" : NumberInt(3151), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(70), 
+    "date" : ISODate("2004-03-20T10:38:51.689+0000")
+}
+{ 
+    "_id" : NumberInt(714), 
+    "quantite" : NumberInt(14315), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2007-07-14T20:04:03.188+0000")
+}
+{ 
+    "_id" : NumberInt(773), 
+    "quantite" : NumberInt(7152), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(20), 
+    "date" : ISODate("1995-01-21T10:17:25.294+0000")
+}
+{ 
+    "_id" : NumberInt(758), 
+    "quantite" : NumberInt(9163), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("2012-02-27T23:18:02.393+0000")
+}
+{ 
+    "_id" : NumberInt(731), 
+    "quantite" : NumberInt(1432), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("1994-06-16T04:35:52.065+0000")
+}
+{ 
+    "_id" : NumberInt(706), 
+    "quantite" : NumberInt(4621), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("2011-09-04T10:32:44.045+0000")
+}
+{ 
+    "_id" : NumberInt(742), 
+    "quantite" : NumberInt(6382), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("1993-01-27T16:15:54.523+0000")
+}
+{ 
+    "_id" : NumberInt(725), 
+    "quantite" : NumberInt(14788), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2017-10-29T06:03:06.522+0000")
+}
+{ 
+    "_id" : NumberInt(781), 
+    "quantite" : NumberInt(9900), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2009-12-09T20:02:53.596+0000")
+}
+{ 
+    "_id" : NumberInt(784), 
+    "quantite" : NumberInt(3066), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2017-04-17T19:28:44.608+0000")
+}
+{ 
+    "_id" : NumberInt(789), 
+    "quantite" : NumberInt(9874), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(56), 
+    "date" : ISODate("2011-04-16T05:21:41.193+0000")
+}
+{ 
+    "_id" : NumberInt(741), 
+    "quantite" : NumberInt(7040), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(41), 
+    "date" : ISODate("2008-11-23T18:14:26.849+0000")
+}
+{ 
+    "_id" : NumberInt(735), 
+    "quantite" : NumberInt(9896), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("1994-05-02T10:46:32.603+0000")
+}
+{ 
+    "_id" : NumberInt(775), 
+    "quantite" : NumberInt(807), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(65), 
+    "date" : ISODate("2001-03-26T15:31:29.344+0000")
+}
+{ 
+    "_id" : NumberInt(763), 
+    "quantite" : NumberInt(8500), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2010-01-20T19:58:40.057+0000")
+}
+{ 
+    "_id" : NumberInt(793), 
+    "quantite" : NumberInt(12866), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(98), 
+    "date" : ISODate("2002-06-02T20:36:39.987+0000")
+}
+{ 
+    "_id" : NumberInt(794), 
+    "quantite" : NumberInt(3072), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2008-10-15T10:48:45.174+0000")
+}
+{ 
+    "_id" : NumberInt(732), 
+    "quantite" : NumberInt(970), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("1993-12-27T16:32:42.799+0000")
+}
+{ 
+    "_id" : NumberInt(764), 
+    "quantite" : NumberInt(10877), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2000-10-23T14:05:12.344+0000")
+}
+{ 
+    "_id" : NumberInt(723), 
+    "quantite" : NumberInt(7638), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("1994-09-27T12:35:24.404+0000")
+}
+{ 
+    "_id" : NumberInt(759), 
+    "quantite" : NumberInt(12796), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("2017-11-20T14:20:07.274+0000")
+}
+{ 
+    "_id" : NumberInt(745), 
+    "quantite" : NumberInt(1190), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(67), 
+    "date" : ISODate("1997-01-10T05:02:48.670+0000")
+}
+{ 
+    "_id" : NumberInt(738), 
+    "quantite" : NumberInt(7573), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2001-09-02T15:07:45.384+0000")
+}
+{ 
+    "_id" : NumberInt(762), 
+    "quantite" : NumberInt(3953), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(96), 
+    "date" : ISODate("2005-12-01T19:56:30.751+0000")
+}
+{ 
+    "_id" : NumberInt(702), 
+    "quantite" : NumberInt(651), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("2007-01-25T22:53:06.728+0000")
+}
+{ 
+    "_id" : NumberInt(777), 
+    "quantite" : NumberInt(8933), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(7), 
+    "date" : ISODate("2004-12-08T10:29:16.397+0000")
+}
+{ 
+    "_id" : NumberInt(873), 
+    "quantite" : NumberInt(552), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(60), 
+    "date" : ISODate("2001-10-24T19:46:31.279+0000")
+}
+{ 
+    "_id" : NumberInt(833), 
+    "quantite" : NumberInt(7778), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(58), 
+    "date" : ISODate("2013-12-09T01:15:38.277+0000")
+}
+{ 
+    "_id" : NumberInt(859), 
+    "quantite" : NumberInt(14510), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(94), 
+    "date" : ISODate("2000-06-02T07:39:59.469+0000")
+}
+{ 
+    "_id" : NumberInt(821), 
+    "quantite" : NumberInt(9653), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2001-01-15T17:50:05.398+0000")
+}
+{ 
+    "_id" : NumberInt(875), 
+    "quantite" : NumberInt(4477), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2013-02-05T02:10:15.953+0000")
+}
+{ 
+    "_id" : NumberInt(803), 
+    "quantite" : NumberInt(13428), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("1994-06-03T00:11:46.078+0000")
+}
+{ 
+    "_id" : NumberInt(883), 
+    "quantite" : NumberInt(13915), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(65), 
+    "date" : ISODate("2001-02-17T18:43:12.650+0000")
+}
+{ 
+    "_id" : NumberInt(858), 
+    "quantite" : NumberInt(14965), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(10), 
+    "date" : ISODate("2010-11-01T18:46:53.303+0000")
+}
+{ 
+    "_id" : NumberInt(808), 
+    "quantite" : NumberInt(10451), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1995-03-31T22:57:02.542+0000")
+}
+{ 
+    "_id" : NumberInt(820), 
+    "quantite" : NumberInt(10315), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(67), 
+    "date" : ISODate("2012-02-12T03:53:26.140+0000")
+}
+{ 
+    "_id" : NumberInt(864), 
+    "quantite" : NumberInt(13953), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("2015-01-31T01:03:51.059+0000")
+}
+{ 
+    "_id" : NumberInt(872), 
+    "quantite" : NumberInt(6587), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(34), 
+    "date" : ISODate("1993-05-29T02:30:47.348+0000")
+}
+{ 
+    "_id" : NumberInt(804), 
+    "quantite" : NumberInt(3919), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2002-01-27T12:49:30.861+0000")
+}
+{ 
+    "_id" : NumberInt(842), 
+    "quantite" : NumberInt(2869), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(91), 
+    "date" : ISODate("1996-07-19T02:20:27.066+0000")
+}
+{ 
+    "_id" : NumberInt(825), 
+    "quantite" : NumberInt(4544), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(4), 
+    "date" : ISODate("2004-03-22T01:44:25.553+0000")
+}
+{ 
+    "_id" : NumberInt(829), 
+    "quantite" : NumberInt(1360), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("2004-08-10T10:17:18.227+0000")
+}
+{ 
+    "_id" : NumberInt(899), 
+    "quantite" : NumberInt(14250), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(100), 
+    "date" : ISODate("2002-05-03T07:00:35.064+0000")
+}
+{ 
+    "_id" : NumberInt(810), 
+    "quantite" : NumberInt(11526), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2002-09-03T04:36:14.422+0000")
+}
+{ 
+    "_id" : NumberInt(816), 
+    "quantite" : NumberInt(1503), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(20), 
+    "date" : ISODate("1994-10-06T21:57:43.842+0000")
+}
+{ 
+    "_id" : NumberInt(843), 
+    "quantite" : NumberInt(2650), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(72), 
+    "date" : ISODate("2013-07-22T06:51:53.172+0000")
+}
+{ 
+    "_id" : NumberInt(828), 
+    "quantite" : NumberInt(9359), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("1996-02-09T11:05:57.236+0000")
+}
+{ 
+    "_id" : NumberInt(841), 
+    "quantite" : NumberInt(4788), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("2001-04-15T13:40:18.201+0000")
+}
+{ 
+    "_id" : NumberInt(832), 
+    "quantite" : NumberInt(8733), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("1998-03-31T09:31:18.586+0000")
+}
+{ 
+    "_id" : NumberInt(830), 
+    "quantite" : NumberInt(6297), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(51), 
+    "date" : ISODate("2017-03-15T16:18:08.722+0000")
+}
+{ 
+    "_id" : NumberInt(896), 
+    "quantite" : NumberInt(7080), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1998-06-11T07:21:35.835+0000")
+}
+{ 
+    "_id" : NumberInt(884), 
+    "quantite" : NumberInt(5106), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("1994-02-10T06:00:14.721+0000")
+}
+{ 
+    "_id" : NumberInt(853), 
+    "quantite" : NumberInt(328), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2004-02-27T08:21:57.705+0000")
+}
+{ 
+    "_id" : NumberInt(814), 
+    "quantite" : NumberInt(0), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2019-04-26T01:07:48.207+0000")
+}
+{ 
+    "_id" : NumberInt(880), 
+    "quantite" : NumberInt(5799), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(63), 
+    "date" : ISODate("2018-07-02T00:30:11.905+0000")
+}
+{ 
+    "_id" : NumberInt(837), 
+    "quantite" : NumberInt(5989), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(69), 
+    "date" : ISODate("2007-10-24T11:25:31.260+0000")
+}
+{ 
+    "_id" : NumberInt(897), 
+    "quantite" : NumberInt(3212), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(99), 
+    "date" : ISODate("2016-07-13T18:11:09.099+0000")
+}
+{ 
+    "_id" : NumberInt(900), 
+    "quantite" : NumberInt(1012), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2012-05-22T03:05:01.790+0000")
+}
+{ 
+    "_id" : NumberInt(852), 
+    "quantite" : NumberInt(7929), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2000-09-04T04:55:49.602+0000")
+}
+{ 
+    "_id" : NumberInt(815), 
+    "quantite" : NumberInt(5731), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(31), 
+    "date" : ISODate("2009-11-06T20:45:56.436+0000")
+}
+{ 
+    "_id" : NumberInt(865), 
+    "quantite" : NumberInt(5036), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(16), 
+    "date" : ISODate("2012-02-25T20:43:46.249+0000")
+}
+{ 
+    "_id" : NumberInt(836), 
+    "quantite" : NumberInt(7285), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("2015-08-07T23:31:12.437+0000")
+}
+{ 
+    "_id" : NumberInt(870), 
+    "quantite" : NumberInt(7787), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2005-09-17T01:07:26.923+0000")
+}
+{ 
+    "_id" : NumberInt(802), 
+    "quantite" : NumberInt(11915), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(23), 
+    "date" : ISODate("2018-04-22T10:31:01.128+0000")
+}
+{ 
+    "_id" : NumberInt(838), 
+    "quantite" : NumberInt(2128), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(24), 
+    "date" : ISODate("2016-06-16T12:58:57.474+0000")
+}
+{ 
+    "_id" : NumberInt(857), 
+    "quantite" : NumberInt(1268), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(71), 
+    "date" : ISODate("2003-07-07T06:47:51.346+0000")
+}
+{ 
+    "_id" : NumberInt(839), 
+    "quantite" : NumberInt(5000), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("2018-05-29T07:35:35.159+0000")
+}
+{ 
+    "_id" : NumberInt(824), 
+    "quantite" : NumberInt(6782), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(14), 
+    "date" : ISODate("2004-06-21T10:05:12.560+0000")
+}
+{ 
+    "_id" : NumberInt(817), 
+    "quantite" : NumberInt(9044), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("2013-01-26T02:28:10.885+0000")
+}
+{ 
+    "_id" : NumberInt(847), 
+    "quantite" : NumberInt(6692), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(22), 
+    "date" : ISODate("2011-05-10T07:10:33.696+0000")
+}
+{ 
+    "_id" : NumberInt(850), 
+    "quantite" : NumberInt(5264), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2018-02-08T13:57:50.838+0000")
+}
+{ 
+    "_id" : NumberInt(898), 
+    "quantite" : NumberInt(3756), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2013-05-21T02:57:16.174+0000")
+}
+{ 
+    "_id" : NumberInt(805), 
+    "quantite" : NumberInt(12554), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(58), 
+    "date" : ISODate("2018-08-11T10:14:02.155+0000")
+}
+{ 
+    "_id" : NumberInt(856), 
+    "quantite" : NumberInt(3250), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(10), 
+    "date" : ISODate("2013-09-15T12:57:30.614+0000")
+}
+{ 
+    "_id" : NumberInt(813), 
+    "quantite" : NumberInt(6116), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(19), 
+    "date" : ISODate("2008-09-17T03:37:51.149+0000")
+}
+{ 
+    "_id" : NumberInt(877), 
+    "quantite" : NumberInt(3311), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("2014-12-07T09:21:08.659+0000")
+}
+{ 
+    "_id" : NumberInt(831), 
+    "quantite" : NumberInt(6456), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(88), 
+    "date" : ISODate("2015-07-05T03:47:10.139+0000")
+}
+{ 
+    "_id" : NumberInt(861), 
+    "quantite" : NumberInt(12325), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("2003-05-06T17:29:26.994+0000")
+}
+{ 
+    "_id" : NumberInt(882), 
+    "quantite" : NumberInt(319), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(48), 
+    "date" : ISODate("2001-04-19T07:40:47.988+0000")
+}
+{ 
+    "_id" : NumberInt(876), 
+    "quantite" : NumberInt(4537), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(26), 
+    "date" : ISODate("1993-03-19T22:20:10.523+0000")
+}
+{ 
+    "_id" : NumberInt(823), 
+    "quantite" : NumberInt(13551), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(89), 
+    "date" : ISODate("2017-11-11T09:54:58.385+0000")
+}
+{ 
+    "_id" : NumberInt(834), 
+    "quantite" : NumberInt(7421), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(11), 
+    "date" : ISODate("2014-06-20T20:23:28.106+0000")
+}
+{ 
+    "_id" : NumberInt(801), 
+    "quantite" : NumberInt(11714), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("2002-09-22T04:02:03.560+0000")
+}
+{ 
+    "_id" : NumberInt(866), 
+    "quantite" : NumberInt(1855), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("1996-01-31T11:22:40.261+0000")
+}
+{ 
+    "_id" : NumberInt(881), 
+    "quantite" : NumberInt(5620), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2016-12-24T18:21:52.198+0000")
+}
+{ 
+    "_id" : NumberInt(891), 
+    "quantite" : NumberInt(3934), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(50), 
+    "date" : ISODate("1998-06-27T11:18:46.205+0000")
+}
+{ 
+    "_id" : NumberInt(918), 
+    "quantite" : NumberInt(2546), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(88), 
+    "date" : ISODate("2017-11-12T01:55:14.738+0000")
+}
+{ 
+    "_id" : NumberInt(971), 
+    "quantite" : NumberInt(13552), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("1997-01-17T06:34:11.190+0000")
+}
+{ 
+    "_id" : NumberInt(951), 
+    "quantite" : NumberInt(1123), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(17), 
+    "date" : ISODate("2017-02-14T06:23:18.694+0000")
+}
+{ 
+    "_id" : NumberInt(975), 
+    "quantite" : NumberInt(5328), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2020-02-19T05:11:17.493+0000")
+}
+{ 
+    "_id" : NumberInt(933), 
+    "quantite" : NumberInt(12958), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(78), 
+    "date" : ISODate("2006-06-01T02:27:12.240+0000")
+}
+{ 
+    "_id" : NumberInt(974), 
+    "quantite" : NumberInt(5030), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("1997-02-04T08:35:00.397+0000")
+}
+{ 
+    "_id" : NumberInt(961), 
+    "quantite" : NumberInt(14033), 
+    "magasin" : "MAG6", 
+    "active" : true, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("1999-06-13T22:39:16.498+0000")
+}
+{ 
+    "_id" : NumberInt(911), 
+    "quantite" : NumberInt(1853), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(18), 
+    "date" : ISODate("1998-05-05T20:40:00.008+0000")
+}
+{ 
+    "_id" : NumberInt(1000), 
+    "quantite" : NumberInt(11754), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(68), 
+    "date" : ISODate("2000-03-28T16:11:28.782+0000")
+}
+{ 
+    "_id" : NumberInt(990), 
+    "quantite" : NumberInt(4464), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1996-10-27T11:23:58.717+0000")
+}
+{ 
+    "_id" : NumberInt(917), 
+    "quantite" : NumberInt(4488), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("2013-11-01T09:05:19.735+0000")
+}
+{ 
+    "_id" : NumberInt(970), 
+    "quantite" : NumberInt(4275), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(64), 
+    "date" : ISODate("2008-05-08T10:52:46.454+0000")
+}
+{ 
+    "_id" : NumberInt(941), 
+    "quantite" : NumberInt(5795), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(90), 
+    "date" : ISODate("2013-12-24T02:22:35.597+0000")
+}
+{ 
+    "_id" : NumberInt(988), 
+    "quantite" : NumberInt(2396), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(43), 
+    "date" : ISODate("2011-10-29T17:27:22.479+0000")
+}
+{ 
+    "_id" : NumberInt(997), 
+    "quantite" : NumberInt(10547), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(61), 
+    "date" : ISODate("2017-03-07T23:15:40.664+0000")
+}
+{ 
+    "_id" : NumberInt(968), 
+    "quantite" : NumberInt(11872), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(29), 
+    "date" : ISODate("2003-07-16T12:22:45.840+0000")
+}
+{ 
+    "_id" : NumberInt(954), 
+    "quantite" : NumberInt(8787), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("1997-11-11T07:07:13.433+0000")
+}
+{ 
+    "_id" : NumberInt(923), 
+    "quantite" : NumberInt(2568), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(53), 
+    "date" : ISODate("2009-06-02T22:43:06.621+0000")
+}
+{ 
+    "_id" : NumberInt(945), 
+    "quantite" : NumberInt(9555), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2009-01-17T04:23:40.665+0000")
+}
+{ 
+    "_id" : NumberInt(938), 
+    "quantite" : NumberInt(8532), 
+    "magasin" : "MAG8", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("2018-07-13T10:00:43.267+0000")
+}
+{ 
+    "_id" : NumberInt(902), 
+    "quantite" : NumberInt(10969), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(91), 
+    "date" : ISODate("1994-06-09T14:03:32.838+0000")
+}
+{ 
+    "_id" : NumberInt(994), 
+    "quantite" : NumberInt(567), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(39), 
+    "date" : ISODate("2002-05-02T03:25:54.659+0000")
+}
+{ 
+    "_id" : NumberInt(935), 
+    "quantite" : NumberInt(14350), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(62), 
+    "date" : ISODate("2010-02-01T19:26:21.293+0000")
+}
+{ 
+    "_id" : NumberInt(950), 
+    "quantite" : NumberInt(4998), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(24), 
+    "date" : ISODate("2012-04-16T04:05:13.188+0000")
+}
+{ 
+    "_id" : NumberInt(952), 
+    "quantite" : NumberInt(9990), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2006-04-18T12:51:06.987+0000")
+}
+{ 
+    "_id" : NumberInt(957), 
+    "quantite" : NumberInt(10276), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(35), 
+    "date" : ISODate("2008-10-24T17:10:12.462+0000")
+}
+{ 
+    "_id" : NumberInt(910), 
+    "quantite" : NumberInt(2938), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(58), 
+    "date" : ISODate("1994-05-31T14:30:37.800+0000")
+}
+{ 
+    "_id" : NumberInt(930), 
+    "quantite" : NumberInt(6227), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(93), 
+    "date" : ISODate("2014-07-22T03:59:00.687+0000")
+}
+{ 
+    "_id" : NumberInt(914), 
+    "quantite" : NumberInt(497), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(40), 
+    "date" : ISODate("1999-06-26T01:48:10.684+0000")
+}
+{ 
+    "_id" : NumberInt(967), 
+    "quantite" : NumberInt(340), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(46), 
+    "date" : ISODate("2010-01-07T11:05:14.055+0000")
+}
+{ 
+    "_id" : NumberInt(983), 
+    "quantite" : NumberInt(7262), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(75), 
+    "date" : ISODate("1993-02-08T02:04:17.142+0000")
+}
+{ 
+    "_id" : NumberInt(995), 
+    "quantite" : NumberInt(1186), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(28), 
+    "date" : ISODate("2001-03-23T22:53:25.634+0000")
+}
+{ 
+    "_id" : NumberInt(942), 
+    "quantite" : NumberInt(6967), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(15), 
+    "date" : ISODate("2009-06-30T07:29:01.923+0000")
+}
+{ 
+    "_id" : NumberInt(922), 
+    "quantite" : NumberInt(11084), 
+    "magasin" : "MAG9", 
+    "active" : true, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2008-04-04T05:18:24.426+0000")
+}
+{ 
+    "_id" : NumberInt(991), 
+    "quantite" : NumberInt(12069), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(44), 
+    "date" : ISODate("2002-12-16T08:55:51.267+0000")
+}
+{ 
+    "_id" : NumberInt(928), 
+    "quantite" : NumberInt(11826), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2017-11-30T07:41:46.866+0000")
+}
+{ 
+    "_id" : NumberInt(955), 
+    "quantite" : NumberInt(13310), 
+    "magasin" : "MAG4", 
+    "active" : true, 
+    "idProduit" : NumberInt(86), 
+    "date" : ISODate("2009-06-16T08:32:54.724+0000")
+}
+{ 
+    "_id" : NumberInt(946), 
+    "quantite" : NumberInt(10342), 
+    "magasin" : "MAG10", 
+    "active" : false, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("1993-12-05T02:43:41.642+0000")
+}
+{ 
+    "_id" : NumberInt(925), 
+    "quantite" : NumberInt(11817), 
+    "magasin" : "MAG1", 
+    "active" : false, 
+    "idProduit" : NumberInt(80), 
+    "date" : ISODate("2008-02-26T18:26:06.662+0000")
+}
+{ 
+    "_id" : NumberInt(996), 
+    "quantite" : NumberInt(12679), 
+    "magasin" : "MAG2", 
+    "active" : false, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2016-11-29T06:47:20.017+0000")
+}
+{ 
+    "_id" : NumberInt(976), 
+    "quantite" : NumberInt(2260), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(84), 
+    "date" : ISODate("2001-12-20T12:29:18.058+0000")
+}
+{ 
+    "_id" : NumberInt(998), 
+    "quantite" : NumberInt(9395), 
+    "magasin" : "MAG5", 
+    "active" : false, 
+    "idProduit" : NumberInt(50), 
+    "date" : ISODate("1995-09-10T16:51:57.155+0000")
+}
+{ 
+    "_id" : NumberInt(992), 
+    "quantite" : NumberInt(14553), 
+    "magasin" : "MAG7", 
+    "active" : false, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2005-11-07T02:38:31.025+0000")
+}
+{ 
+    "_id" : NumberInt(936), 
+    "quantite" : NumberInt(5281), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(83), 
+    "date" : ISODate("2016-10-09T19:24:02.299+0000")
+}
+{ 
+    "_id" : NumberInt(982), 
+    "quantite" : NumberInt(14721), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(57), 
+    "date" : ISODate("2007-10-04T14:37:27.947+0000")
+}
+{ 
+    "_id" : NumberInt(912), 
+    "quantite" : NumberInt(11715), 
+    "magasin" : "MAG6", 
+    "active" : false, 
+    "idProduit" : NumberInt(42), 
+    "date" : ISODate("2008-11-18T13:05:26.099+0000")
+}
+{ 
+    "_id" : NumberInt(985), 
+    "quantite" : NumberInt(14196), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(32), 
+    "date" : ISODate("2010-11-30T23:21:57.221+0000")
+}
+{ 
+    "_id" : NumberInt(987), 
+    "quantite" : NumberInt(38), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(66), 
+    "date" : ISODate("2007-05-04T02:45:14.668+0000")
+}
+{ 
+    "_id" : NumberInt(984), 
+    "quantite" : NumberInt(5556), 
+    "magasin" : "MAG4", 
+    "active" : false, 
+    "idProduit" : NumberInt(77), 
+    "date" : ISODate("2002-10-01T23:53:17.309+0000")
+}
+{ 
+    "_id" : NumberInt(960), 
+    "quantite" : NumberInt(13938), 
+    "magasin" : "MAG9", 
+    "active" : false, 
+    "idProduit" : NumberInt(2), 
+    "date" : ISODate("2018-06-07T01:38:10.753+0000")
+}
+{ 
+    "_id" : NumberInt(969), 
+    "quantite" : NumberInt(2986), 
+    "magasin" : "MAG2", 
+    "active" : true, 
+    "idProduit" : NumberInt(21), 
+    "date" : ISODate("2002-06-13T20:40:08.514+0000")
+}
+{ 
+    "_id" : NumberInt(947), 
+    "quantite" : NumberInt(4572), 
+    "magasin" : "MAG1", 
+    "active" : true, 
+    "idProduit" : NumberInt(73), 
+    "date" : ISODate("2002-06-08T11:27:59.480+0000")
+}
+{ 
+    "_id" : NumberInt(907), 
+    "quantite" : NumberInt(7287), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(85), 
+    "date" : ISODate("2001-08-31T23:55:06.207+0000")
+}
+{ 
+    "_id" : NumberInt(915), 
+    "quantite" : NumberInt(14602), 
+    "magasin" : "MAG3", 
+    "active" : false, 
+    "idProduit" : NumberInt(59), 
+    "date" : ISODate("2013-10-24T07:23:53.384+0000")
+}
+{ 
+    "_id" : NumberInt(963), 
+    "quantite" : NumberInt(11492), 
+    "magasin" : "MAG8", 
+    "active" : true, 
+    "idProduit" : NumberInt(3), 
+    "date" : ISODate("2002-10-30T04:48:32.208+0000")
+}
+{ 
+    "_id" : NumberInt(934), 
+    "quantite" : NumberInt(7399), 
+    "magasin" : "MAG7", 
+    "active" : true, 
+    "idProduit" : NumberInt(50), 
+    "date" : ISODate("1994-01-30T23:05:01.762+0000")
+}
+{ 
+    "_id" : NumberInt(939), 
+    "quantite" : NumberInt(14331), 
+    "magasin" : "MAG10", 
+    "active" : true, 
+    "idProduit" : NumberInt(9), 
+    "date" : ISODate("1998-12-27T06:43:25.950+0000")
+}
+{ 
+    "_id" : NumberInt(993), 
+    "quantite" : NumberInt(6514), 
+    "magasin" : "MAG3", 
+    "active" : true, 
+    "idProduit" : NumberInt(79), 
+    "date" : ISODate("2019-04-27T22:58:38.990+0000")
+}
+{ 
+    "_id" : NumberInt(921), 
+    "quantite" : NumberInt(10149), 
+    "magasin" : "MAG5", 
+    "active" : true, 
+    "idProduit" : NumberInt(25), 
+    "date" : ISODate("2002-07-10T03:28:40.036+0000")
+}
+{ 
+    "_id" : ObjectId("5ea06218f54cde4d1929e011"), 
+    "date" : null
+}
+{ 
+    "_id" : ObjectId("5ea063aff54cde4d1929e012"), 
+    "date" : null
+}

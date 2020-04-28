@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-reactive-mongoapi-stock
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
+      database: apiStock
+
+kafka:
+  bootstrap-server: 192.168.99.101:29092
+  acks: all
+  retries: 2147483647
+  batch-size: 131072
+  client-id: producerStock
+  buffer-memory: 80000000
+  idempotence: true
+  compression-type: snappy
+  topic-name: stock-delete-v1
+  user: producer-user
+  password: producer-pwd
+
+server:
+  port: 8080
