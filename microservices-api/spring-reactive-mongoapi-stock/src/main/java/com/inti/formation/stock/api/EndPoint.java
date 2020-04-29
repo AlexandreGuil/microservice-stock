@@ -15,28 +15,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.web.server.ResponseStatusException;
 
-
-import org.springframework.web.servlet.function.ServerResponse;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import javax.websocket.server.PathParam;
-import java.math.BigInteger;
 import java.util.Date;
 import java.util.UUID;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.http.ResponseEntity.badRequest;
 import static org.springframework.http.ResponseEntity.status;
-import static org.springframework.web.servlet.function.EntityResponse.fromObject;
-
 
 @Slf4j
 @RestController
@@ -169,6 +161,7 @@ public class EndPoint {
         return serv.deleteStockeById(Long.parseLong(idStock));
     }
 
+    // Je sais pas si c'est util de garder t'a méthode @Dustnight ?
     @DeleteMapping(value = "/deleteStock", headers = "Accept=application/json; charset=utf-8")
     @ResponseStatus(value = HttpStatus.OK, reason = "This stock wase deleted")
     public Mono<Void> deleteStock(@RequestBody Stock stock){
