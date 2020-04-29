@@ -12,7 +12,6 @@
         <module>microservices-utils</module>
         <module>microservices-common-libs</module>
         <module>microservices-consumer</module>
-        <module>microservices-consumer/spring-reactive-consumer-stock</module>
     </modules>
     <packaging>pom</packaging>
 
