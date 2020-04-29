@@ -11,11 +11,12 @@
         <module>microservices-api</module>
         <module>microservices-utils</module>
         <module>microservices-common-libs</module>
+        <module>microservices-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
     <properties>
-        <springboot.version>2.2.6.RELEASE</springboot.version>
+        <springboot.version>2.2.6.RELEASE</springboot.version> <!-- 2.2.6.RELEASE -->
         <springmongodb.version>2.2.3.RELEASE</springmongodb.version>
         <springkafka.version>2.3.6.RELEASE</springkafka.version>
         <kafkaclient.version>2.3.1</kafkaclient.version>
