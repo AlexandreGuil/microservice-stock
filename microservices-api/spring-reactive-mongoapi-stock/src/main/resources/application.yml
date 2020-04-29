@@ -7,7 +7,7 @@ spring:
       database: apiStock
 
 kafka:
-  bootstrap-server: 192.168.99.101:29092
+  bootstrap-server: 192.168.99.100:29092 # 192.168.99.101:29092
   acks: all
   retries: 2147483647
   batch-size: 131072

@@ -1,5 +1,5 @@
 kafka:
-  boot-server: 192.168.99.101:29092
+  boot-server: 192.168.99.100:29092 #192.168.99.101:29092
   topic-name: stock-delete-v1
   consumer-group-id: spring-reactive-stock-groupeId
   client-id: spring-reactive-stock
