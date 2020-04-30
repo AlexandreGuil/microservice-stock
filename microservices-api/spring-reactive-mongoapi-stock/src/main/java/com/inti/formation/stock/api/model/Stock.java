@@ -1,15 +1,15 @@
 package com.inti.formation.stock.api.model;
 
-import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.CompoundIndex;
 import org.springframework.data.mongodb.core.index.CompoundIndexes;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
-import java.math.BigInteger;
 import java.util.Date;
 
 @Data
@@ -22,12 +22,13 @@ import java.util.Date;
 public class Stock implements Serializable {
 
     @Id
-    private Long idStock; // _id : mongodb
-    //    private ObjectId idStock;
+    private long idStock; // private ObjectId idStock; // _id : mongodb // BigInteger
     @Indexed(unique = false)
     private Long quantite;
     private String magasin;
     private Boolean active;
     private Long idProduit;
-    private Date date; // format yyyy-MM-ddTHH:ss.SSSZZZZ
+    @Field("creation-date")
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
+    private Date creationDate; // format yyyy-MM-ddTHH:ss.SSSZZZZ
 }

@@ -8,9 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservices-common-libs" />
+<<<<<<< HEAD
         <module name="spring-reactive-mongoapi-stock" />
         <module name="spring-reactive-consumer-topic-stock" />
         <module name="microservices-utils" />
+=======
+        <module name="microservices-utils" />
+        <module name="spring-reactive-mongoapi-stock" />
+        <module name="spring-reactive-consumer-topic-stock" />
+>>>>>>> master
         <module name="spring-reactive-consumer-stock" />
       </profile>
     </annotationProcessing>

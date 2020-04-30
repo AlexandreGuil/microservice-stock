@@ -1,0 +1,112 @@
+[
+  {
+    'repeat(100)': {
+      _id: '{{integer([1],[100])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([100],[200])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([200],[300])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([300],[400])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([300],[400])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([400],[500])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([600],[700])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([700],[800])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([800],[900])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  },
+  {
+    'repeat(100)': {
+      _id: '{{integer([900],[1000])}}',
+      quantite: '{{integer([0],[15000])}}',
+      magasin: '{{random("MAG1", "MAG2", "MAG3", "MAG4", "MAG5", "MAG6", "MAG7", "MAG8", "MAG9", "MAG10")}}',
+      active: '{{bool()}}',
+      idProduit: '{{integer([1],[100])}}',
+      date: '{{moment(this.date(new Date(1993, 0, 1), new Date())).format("YYYY-MM-DDTHH:mm:ss.SSSZZ")}}'
+      
+    }
+  }
+]
