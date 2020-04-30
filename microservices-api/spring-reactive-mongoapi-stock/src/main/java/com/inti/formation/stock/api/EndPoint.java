@@ -1,6 +1,8 @@
 package com.inti.formation.stock.api;
 
 import com.inti.formation.stock.api.model.Stock;
+import com.inti.formation.stock.api.model.StockDel;
+import com.inti.formation.stock.api.repository.StockDelRopository;
 import com.inti.formation.stock.api.rest.exception.InternalServerException;
 import com.inti.formation.stock.api.rest.exception.StockModelNotFindInApiStockMongoDbCollectionException;
 import com.inti.formation.stock.api.rest.exception.StockParamException;
@@ -24,6 +26,7 @@ import org.springframework.web.server.ResponseStatusException;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.text.ParseException;
 import java.util.Date;
 import java.util.UUID;
 
@@ -43,10 +46,13 @@ public class EndPoint {
     private String compressionType;
 
     @Autowired
-    private KafkaTemplate<String, Stock> kafkaThemplate;
+    private KafkaTemplate<String, StockDel> kafkaThemplate;
 
     @Autowired(required = true)
     IStockService serv;
+
+    @Autowired
+    StockDelRopository stockDelRopository;
 
     @ExceptionHandler(StockParamException.class)
     public Mono<ResponseEntity<String>> handlerStockParamException(StockParamException err) {
@@ -70,7 +76,7 @@ public class EndPoint {
             reason = "Stock is save in the database")
     public Mono<String> saveStock(@RequestBody Stock stock) {
         if(ObjectUtils.anyNotNull(stock) && !ObjectUtils.allNotNull(stock.getQuantite(),
-                stock.getActive(), stock.getDate(), stock.getMagasin())) {
+                stock.getActive(), stock.getCreationDate(), stock.getMagasin())) {
             log.error("Validation error: one of the parameters was not store in the stock instance");
             return Mono.error(new StockParamException("Stock params exception"));
         }
@@ -97,8 +103,8 @@ public class EndPoint {
             @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
                     Date date) {
         log.debug("inpute date", date);
-        return serv.findActiveStockUntileDate(date)
-                .doOnNext(data -> log.info(data.getDate() + " is found"));
+        return serv.findActiveStockUntileCreationDate(date)
+                .doOnNext(data -> log.info(data.getCreationDate() + " is found"));
     }
 
     @GetMapping
@@ -126,7 +132,7 @@ public class EndPoint {
     public Mono<String> updateStock(@RequestBody Stock stock){
         if(ObjectUtils.anyNotNull(stock) && !ObjectUtils.anyNotNull(stock.getQuantite(),
                 stock.getMagasin(),
-                stock.getDate(),
+                stock.getCreationDate(),
                 stock.getActive(),
                 stock.getIdStock())) {
             log.error("Update error: the input values of stocks is not valide");
@@ -152,9 +158,15 @@ public class EndPoint {
     public Mono<Void> deleteStockeById(@RequestParam(value = "idStock")
                                        String idStock) {
         serv.findStockById(Long.parseLong(idStock)).map((Stock stock) -> {
-            ProducerRecord<String, Stock> producerRecord = new ProducerRecord<>(topicName,
-                    UUID.randomUUID().toString(), stock);
-            kafkaThemplate.send(producerRecord);
+            ProducerRecord<String, StockDel> producerRecord = null;
+            try {
+                log.info(stockDelRopository.getStockDelByStock(stock).toString());
+                producerRecord = new ProducerRecord<>(topicName,
+                        UUID.randomUUID().toString(), stockDelRopository.getStockDelByStock(stock));
+                kafkaThemplate.send(producerRecord);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
             return Mono.just(stock);
         }).subscribe();
         log.info("The stock entity with '_id': " + idStock + " was send in the delation topic" );

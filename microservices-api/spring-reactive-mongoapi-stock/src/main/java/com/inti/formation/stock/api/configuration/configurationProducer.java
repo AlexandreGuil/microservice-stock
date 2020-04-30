@@ -1,6 +1,7 @@
 package com.inti.formation.stock.api.configuration;
 
 import com.inti.formation.stock.api.model.Stock;
+import com.inti.formation.stock.api.model.StockDel;
 import com.inti.formation.stock.api.seriallizer.JsonPojoSeriallizer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -69,12 +70,12 @@ public class configurationProducer {
     }
 
     @Bean
-    public ProducerFactory<String, Stock> producerFactory() {
+    public ProducerFactory<String, StockDel> producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfigs());
     }
 
     @Bean
-    public KafkaTemplate<String, Stock> kafkaTemplate() {
+    public KafkaTemplate<String, StockDel> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
 }
