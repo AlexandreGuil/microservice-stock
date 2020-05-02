@@ -5,6 +5,8 @@ spring:
     mongodb:
       uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
       database: apiStock
+#  transaction:
+#    rollback-on-commit-failure:
 
 kafka:
   bootstrap-server: 192.168.99.101:29092

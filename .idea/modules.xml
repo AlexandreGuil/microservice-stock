@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservices-api/microservices-api.iml" filepath="$PROJECT_DIR$/microservices-api/microservices-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-stock/spring-reactive-consumer-stock.iml" filepath="$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-stock/spring-reactive-consumer-stock.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-topic-stock/spring-reactive-consumer-topic-stock.iml" filepath="$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-topic-stock/spring-reactive-consumer-topic-stock.iml" />
     </modules>
   </component>

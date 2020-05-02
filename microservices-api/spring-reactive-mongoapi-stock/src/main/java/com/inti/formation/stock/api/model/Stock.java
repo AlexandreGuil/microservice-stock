@@ -6,8 +6,6 @@ import org.springframework.data.mongodb.core.index.CompoundIndex;
 import org.springframework.data.mongodb.core.index.CompoundIndexes;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -28,7 +26,5 @@ public class Stock implements Serializable {
     private String magasin;
     private Boolean active;
     private Long idProduit;
-    @Field("creation-date")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
     private Date creationDate; // format yyyy-MM-ddTHH:ss.SSSZZZZ
 }

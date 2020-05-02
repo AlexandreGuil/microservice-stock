@@ -16,8 +16,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <springboot.version>2.2.6.RELEASE</springboot.version> <!-- 2.2.6.RELEASE -->
-        <springmongodb.version>2.2.3.RELEASE</springmongodb.version>
+        <springboot.version>2.2.5.RELEASE</springboot.version> <!-- 2.2.6.RELEASE -->
+        <springmongodb.version>2.2.4.RELEASE</springmongodb.version>
         <springkafka.version>2.3.6.RELEASE</springkafka.version>
         <kafkaclient.version>2.3.1</kafkaclient.version>
         <mongodbdriver.version>3.11.2</mongodbdriver.version>
@@ -34,6 +34,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
                 <version>${springboot.version}</version>
             </dependency>
 
