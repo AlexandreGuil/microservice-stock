@@ -54,7 +54,9 @@ public class ConsumerConfiguration {
         configuration.put(ConsumerConfig.HEARTBEAT_INTERVAL_MS_CONFIG, heartbeatIntervalMs);
         configuration.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         configuration.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
-        return new DefaultKafkaConsumerFactory<>(configuration, null, new JsonDeserializer<>(Stock.class));
+        return new DefaultKafkaConsumerFactory<>(configuration,
+                new StringDeserializer(),
+                new JsonDeserializer<>(Stock.class));
     }
 
     @Bean

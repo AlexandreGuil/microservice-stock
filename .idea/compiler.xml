@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservices-common-libs" />
         <module name="spring-reactive-mongoapi-stock" />
+        <module name="spring-reactive-consumer-stock" />
         <module name="spring-reactive-consumer-topic-stock" />
         <module name="microservices-utils" />
       </profile>

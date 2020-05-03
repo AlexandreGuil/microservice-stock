@@ -7,14 +7,16 @@ import org.springframework.stereotype.Repository;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.UUID;
 
 @Repository
 public class StockDelRopository {
 
-    public StockDel getStockDelByStock(Stock stock) throws ParseException {
+    public StockDel getStockDelByStock(Stock stock) {
         StockDel res = new StockDel();
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
+        final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZZZZ");
 
+        res.setKey(UUID.randomUUID().toString());
         res.setIdStock(stock.getIdStock());
         res.setQuantite(stock.getQuantite());
         res.setMagasin(stock.getMagasin());

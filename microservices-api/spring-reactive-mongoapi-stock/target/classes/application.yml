@@ -4,7 +4,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
-      database: apiStock
+      database: tmpDB # apiStock
+
 
 kafka:
   bootstrap-server: 192.168.99.101:29092

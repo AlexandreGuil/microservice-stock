@@ -15,7 +15,6 @@ import org.apache.commons.lang3.ObjectUtils;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -27,7 +26,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.text.ParseException;
-import java.util.Date;
+import java.text.SimpleDateFormat;
 import java.util.UUID;
 
 import static org.springframework.http.ResponseEntity.badRequest;
@@ -93,17 +92,17 @@ public class EndPoint {
                     String idStock) {
         log.debug("input _id", idStock);
         return serv.findStockById(Long.parseLong(idStock))
-                .doOnNext(data -> log.info(data.getIdStock() + "is found"));
+                .doOnNext(data -> log.info(data.getIdStock() + " is found"));
     }
 
     @GetMapping
-    @RequestMapping(value = "/findStockByActivAndDate")
+    @RequestMapping(value = "/findStockByActiveAndDate")
     public Flux<Stock> findActiveStockUntileDate(
             @RequestParam(name = "date")
-            @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-                    Date date) {
-        log.debug("inpute date", date);
-        return serv.findActiveStockUntileCreationDate(date)
+                    String date) throws ParseException {
+        log.debug(date);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS");
+        return serv.findActiveStockUntileCreationDate(format.parse(date))
                 .doOnNext(data -> log.info(data.getCreationDate() + " is found"));
     }
 
@@ -154,19 +153,15 @@ public class EndPoint {
      */
 
     @DeleteMapping(value = "/deleteStockeById", headers = "Accept=application/json; charset=utf-8")
-    @ResponseStatus(value = HttpStatus.OK, reason = "This stock wase deleted")
+    @ResponseStatus(code = HttpStatus.OK, reason = "This stock wase deleted")
     public Mono<Void> deleteStockeById(@RequestParam(value = "idStock")
-                                       String idStock) {
+                                               String idStock) {
         serv.findStockById(Long.parseLong(idStock)).map((Stock stock) -> {
-            ProducerRecord<String, StockDel> producerRecord = null;
-            try {
-                log.info(stockDelRopository.getStockDelByStock(stock).toString());
-                producerRecord = new ProducerRecord<>(topicName,
-                        UUID.randomUUID().toString(), stockDelRopository.getStockDelByStock(stock));
-                kafkaThemplate.send(producerRecord);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
+            log.info(stockDelRopository.getStockDelByStock(stock).toString());
+            StockDel message = stockDelRopository.getStockDelByStock(stock);
+            ProducerRecord<String, StockDel> producerRecord = new ProducerRecord<>(topicName, message.getKey(),
+                    message);
+            kafkaThemplate.send(producerRecord);
             return Mono.just(stock);
         }).subscribe();
         log.info("The stock entity with '_id': " + idStock + " was send in the delation topic" );
