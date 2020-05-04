@@ -1,9 +1,18 @@
 package com.inti.formation.stock.topic.consumer;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppConsumer {
-    public static void main(String[] args) { SpringApplication.run(AppConsumer.class, args); }
+public class AppConsumer implements CommandLineRunner {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AppConsumer.class, args);
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
 }

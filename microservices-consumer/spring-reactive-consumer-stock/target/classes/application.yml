@@ -8,5 +8,17 @@ kafka:
   auto-commit-interval-ms: 5000
   heartbeat-interval-ms: 300
 
+spring:
+  data:
+    elasticsearch:
+      cluster-name: microservice-stock
+
+  elasticsearch:
+    jest:
+      proxy:
+        host: 192.168.99.101
+        port: 9200
+
 server:
   port: 8082
+

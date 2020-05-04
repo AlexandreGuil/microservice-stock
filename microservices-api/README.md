@@ -4,7 +4,7 @@
 
 ```bash
 
-$ kafka-topics --create --topic  deleted-product-v1 --zookeeper zookeeper:2181 --config cleanup.policy=delete  --config  delete.retention.ms=604800000 --config  retention.ms=604800000 --partitions 3 --replication-factor 1
+$ kafka-topics --create --topic  deleted-stock-v1 --zookeeper zookeeper:2181 --config cleanup.policy=delete  --config  delete.retention.ms=604800000 --config  retention.ms=604800000 --partitions 3 --replication-factor 1
 
 ````
 
