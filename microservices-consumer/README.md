@@ -34,7 +34,7 @@ curl -X PUT -H "Content-Type: application/json" -d @./spring-reactive-consumer-s
 
 ## Crée l'image docker a partir du spring-reactive-mongoapi-stock.jar
 
-> commande docker
+> commande Docker
 
 ````bash
 
