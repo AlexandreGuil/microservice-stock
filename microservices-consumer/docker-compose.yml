@@ -12,6 +12,8 @@ services:
       - 9300:9300
     environment:
       discovery.type: single-node
+    networks:
+      - elasticsearch-kibana
     restart: always
 
   # Client kibana
@@ -21,5 +23,10 @@ services:
     container_name: kibana-microservice-stock
     ports: 
       - 5601:5601
-    depends_on: 
+    depends_on:
       - elasticsearch
+    networks:
+      - elasticsearch-kibana
+networks:
+  elasticsearch-kibana:
+    driver: bridge

@@ -1,11 +1,10 @@
-package com.inti.formation.stock.api.model;
+package com.inti.formation.stock.topic.consumer.model;
 
 import lombok.Data;
 
-import java.io.Serializable;
-
 @Data
-public class StockDel implements Serializable {
+public class StockTopic {
+
     private String key;
     private Long idStock;
     private Long quantite;
