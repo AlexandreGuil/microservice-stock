@@ -72,7 +72,9 @@ $ kafka-console-consumer --bootstrap-server broker:9092 --topic stock-delete-v1 
 
 ````
 
-## Crée l'image docker a partir du spring-reactive-mongoapi-stock-1.0-RELEASE.jar
+## Crée l'image docker a partir du spring-reactive-mongoapi-stock.jar
+
+> commande docker
 
 ````bash
 

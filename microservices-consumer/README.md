@@ -32,9 +32,9 @@ curl -X PUT -H "Content-Type: application/json" -d @./spring-reactive-consumer-s
 
 ```
 
-## Crée l'image docker a partir du spring-reactive-mongoapi-stock-1.0-RELEASE.jar
+## Crée l'image docker a partir du spring-reactive-mongoapi-stock.jar
 
-> commande kafka
+> commande docker
 
 ````bash
 
