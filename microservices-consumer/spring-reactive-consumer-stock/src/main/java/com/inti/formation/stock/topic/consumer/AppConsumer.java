@@ -6,7 +6,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 
 @SpringBootApplication
 @EnableElasticsearchRepositories
-public class AppConsumer /* implements CommandLineRunner */ {
+public class AppConsumer {
 
     public static void main(String[] args) {
         SpringApplication.run(AppConsumer.class, args);
