@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "properties": {
+      "key": {"type": "keyword"},
+      "idStock": {"type": "long"},
+      "quantite": {"type": "long"},
+      "magasin": {"type": "keyword"},
+      "active": {"type": "boolean"},
+      "idProduit": {"type": "long"},
+      "date": {"type": "date"}
+    }
+  }
+}

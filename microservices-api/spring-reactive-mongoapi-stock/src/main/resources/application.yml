@@ -5,6 +5,9 @@ spring:
     mongodb:
       uri: mongodb://192.168.99.100:27017,192.168.99.100:27017 # mongodb://192.168.99.101:27017,192.168.99.101:27017
       database: apiStock
+#  transaction:
+#    rollback-on-commit-failure:
+
 
 kafka:
   bootstrap-server: 192.168.99.100:29092 # 192.168.99.101:29092
@@ -15,7 +18,7 @@ kafka:
   buffer-memory: 80000000
   idempotence: true
   compression-type: snappy
-  topic-name: stock-delete-v1
+  topic-name: deleted-stock-v1
   user: producer-user
   password: producer-pwd
 

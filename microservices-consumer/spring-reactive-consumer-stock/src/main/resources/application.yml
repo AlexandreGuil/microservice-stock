@@ -1,6 +1,11 @@
 kafka:
+<<<<<<< HEAD
   boot-server: 192.168.99.100:29092 
   topic-name: stock-delete-v1
+=======
+  boot-server: 192.168.99.101:29092
+  topic-name: deleted-stock-v1
+>>>>>>> ba3a12bd129e33aaafed4f3b7e96eea8461a267d
   consumer-group-id: spring-reactive-stock-groupeId
   client-id: spring-reactive-stock
   auto-ofset-rest: earliest
@@ -8,5 +13,21 @@ kafka:
   auto-commit-interval-ms: 5000
   heartbeat-interval-ms: 300
 
+spring:
+  data:
+    elasticsearch:
+      cluster-name: microservice-stock
+
+  elasticsearch:
+    jest:
+      proxy:
+        host: localhost
+        port: 9200
+
 server:
+<<<<<<< HEAD
   port: 8080
+=======
+  port: 8082
+
+>>>>>>> ba3a12bd129e33aaafed4f3b7e96eea8461a267d

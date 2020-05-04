@@ -3,8 +3,16 @@ spring:
     name: spring-reactive-mongoapi-stock
   data:
     mongodb:
+<<<<<<< HEAD
       uri: mongodb://192.168.99.100:27017,192.168.99.100:27017 # mongodb://192.168.99.101:27017,192.168.99.101:27017
       database: stock #apiStock
+=======
+      uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
+      database: apiStock
+#  transaction:
+#    rollback-on-commit-failure:
+
+>>>>>>> ba3a12bd129e33aaafed4f3b7e96eea8461a267d
 
 kafka:
   bootstrap-server: 192.168.99.100:29092 # 192.168.99.101:29092
@@ -15,7 +23,7 @@ kafka:
   buffer-memory: 80000000
   idempotence: true
   compression-type: snappy
-  topic-name: stock-delete-v1
+  topic-name: deleted-stock-v1
   user: producer-user
   password: producer-pwd
 

@@ -15,7 +15,7 @@ public interface IStockService {
     public Flux<Stock> findByMagasin(final String magasin);
     public Flux<Stock> findAllStock();
 
-    public Mono<Void> deleteStockeById(final long idStock);
+    public Mono<Void> deleteStockeById(final Long idStock);
     public Mono<Void> deleteStock(Stock stock);
 
     public Mono<Stock> updateStock(Stock stock);
