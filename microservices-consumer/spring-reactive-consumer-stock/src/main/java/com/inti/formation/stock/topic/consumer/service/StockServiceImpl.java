@@ -1,6 +1,6 @@
 package com.inti.formation.stock.topic.consumer.service;
 
-import com.inti.formation.stock.topic.consumer.model.Stock;
+import com.inti.formation.stock.topic.consumer.model.StockEs;
 import com.inti.formation.stock.topic.consumer.repository.IStockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ public class StockServiceImpl implements IStockService {
     IStockRepository repo;
 
     @Override
-    public void saveStock(Stock stock) {
-        repo.save(stock);
+    public StockEs saveStock(StockEs stock) {
+        return repo.save(stock);
     }
 }

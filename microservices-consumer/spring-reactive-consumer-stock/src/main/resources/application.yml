@@ -1,6 +1,6 @@
 kafka:
   boot-server: 192.168.99.101:29092
-  topic-name: stock-delete-v1
+  topic-name: deleted-stock-v1
   consumer-group-id: spring-reactive-stock-groupeId
   client-id: spring-reactive-stock
   auto-ofset-rest: earliest
@@ -16,7 +16,7 @@ spring:
   elasticsearch:
     jest:
       proxy:
-        host: 192.168.99.101
+        host: localhost
         port: 9200
 
 server:

@@ -1,6 +1,6 @@
 package com.inti.formation.stock.topic.consumer.configuration;
 
-import com.inti.formation.stock.topic.consumer.model.Stock;
+import com.inti.formation.stock.topic.consumer.model.StockTopic;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -43,7 +43,7 @@ public class ConsumerConfiguration {
     private String heartbeatIntervalMs;
 
     @Bean
-    public ConsumerFactory<String, Stock> consumerConfig() {
+    public ConsumerFactory<String, StockTopic> consumerConfig() {
         Map<String, Object> configuration = new HashMap<>();
         configuration.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootServer);
         configuration.put(ConsumerConfig.GROUP_ID_CONFIG, consumerGroupId);
@@ -56,12 +56,12 @@ public class ConsumerConfiguration {
         configuration.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
         return new DefaultKafkaConsumerFactory<>(configuration,
                 new StringDeserializer(),
-                new JsonDeserializer<>(Stock.class));
+                new JsonDeserializer<>(StockTopic.class));
     }
 
     @Bean
-    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<String, Stock>> kafkaListenerContainerFactory() {
-        ConcurrentKafkaListenerContainerFactory<String, Stock> listener = new ConcurrentKafkaListenerContainerFactory<>();
+    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<String, StockTopic>> kafkaListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, StockTopic> listener = new ConcurrentKafkaListenerContainerFactory<>();
         listener.setConsumerFactory(consumerConfig());
         return listener;
     }
