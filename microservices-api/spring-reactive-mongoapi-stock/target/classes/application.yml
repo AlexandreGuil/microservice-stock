@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
-      database: tmpDB # apiStock
+      database: apiStock
 
 
 kafka:
@@ -16,7 +16,7 @@ kafka:
   buffer-memory: 80000000
   idempotence: true
   compression-type: snappy
-  topic-name: stock-delete-v1
+  topic-name: deleted-stock-v1
   user: producer-user
   password: producer-pwd
 

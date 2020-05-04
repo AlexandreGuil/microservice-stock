@@ -9,4 +9,3 @@ for i in range(10000):
         print("Stock _id : " + index + " was deleted")
     except:
         continue
-        

@@ -30,9 +30,12 @@ class Stock:
                + ", " + str(self.creationDate) + "]"
 
 client = pymongo.MongoClient("192.168.99.101", 27017) ## driver connector to the mongodb container docker
-database = client["tmpDB"] ## target database name
+database = client["apiStock"] ## target database name
 collection = database["stock"] ## target collection
 for i in range(1, 500001):
-    line = Stock(i).__dict__
-    collection.insert_one(line)
-    print(line.__str__())
+    try:
+        line = Stock(i).__dict__
+        collection.insert_one(line)
+        print(line.__str__())
+    except:
+        collection.update(line)
