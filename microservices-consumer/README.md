@@ -8,7 +8,7 @@
 
 ```bash
 
-curl -X PUT -H "Content-Type: application/json" -d @./spring-reactive-consumer-stock/src/main/resources/mapping-stock-delete-item.json  "localhost:9200/stock-delete-item?pretty"
+curl -X PUT -H "Content-Type: application/json" -d @./spring-reactive-consumer-stock/src/main/resources/mapping-stock-delete-item.json  "localhost:9200/shop?pretty"
 
 ```
 

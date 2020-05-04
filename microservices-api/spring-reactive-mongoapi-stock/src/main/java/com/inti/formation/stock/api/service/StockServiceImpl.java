@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Slf4j
@@ -26,7 +28,21 @@ public class StockServiceImpl implements IStockService {
     public Mono<Stock> findStockById(final Long idStock) {return repo.findByIdStock(idStock);}
 
     @Override
-    public Flux<Stock> findActiveStockUntileCreationDate(Date date) { return repo.findActiveStockUntileCreationDate(date); }
+    public Flux<Stock> findActiveStockUntileCreationDate(Date date) {
+        final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZZZZ");
+        return repo.findByActiveStock().map((Stock stock) -> {
+            try {
+                Date creationDate = format.parse(stock.getCreationDate());
+                log.debug(creationDate.toString());
+                if(creationDate.after(date) || creationDate.equals(date)) {
+                    return stock;
+                }
+            } catch (ParseException err) {
+                log.error(err.getMessage());
+            }
+            return new Stock();
+        }).filter(stock -> !stock.equals(new Stock()));
+    }
 
     @Override
     public Flux<Stock> findByMagasin(String magasin) {
@@ -37,7 +53,7 @@ public class StockServiceImpl implements IStockService {
     public Flux<Stock> findAllStock() { return repo.findAll(); }
 
     @Override
-    public Mono<Void> deleteStockeById(final long idStock) {return repo.deleteById(idStock);}
+    public Mono<Void> deleteStockeById(final Long idStock) {return repo.deleteById(idStock);}
 
     @Override
     public Mono<Void> deleteStock(Stock stock) {return repo.delete(stock);}
