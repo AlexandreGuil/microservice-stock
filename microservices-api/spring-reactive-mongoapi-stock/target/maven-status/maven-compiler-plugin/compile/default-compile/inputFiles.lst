@@ -1,0 +1,15 @@
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\rest\exception\StockParamException.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\service\StockServiceImpl.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\repository\IStockRepositoy.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\seriallizer\JsonPojoSeriallizer.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\configuration\configurationProducer.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\model\Stock.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\configuration\MongoConfig.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\rest\exception\StockModelNotFindInApiStockMongoDbCollectionException.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\ApplicationShopStock.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\EndPoint.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\model\StockDel.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\repository\StockDelRopository.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\service\IStockService.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\rest\exception\InternalServerException.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-api\spring-reactive-mongoapi-stock\src\main\java\com\inti\formation\stock\api\rest\bean\StockRequest.java
