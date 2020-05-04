@@ -3,27 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="microservices-common-libs" />
-<<<<<<< HEAD
-        <module name="spring-reactive-mongoapi-stock" />
-        <module name="spring-reactive-consumer-topic-stock" />
-        <module name="microservices-utils" />
-=======
-        <module name="microservices-utils" />
-        <module name="spring-reactive-mongoapi-stock" />
-        <module name="spring-reactive-consumer-topic-stock" />
->>>>>>> master
-        <module name="spring-reactive-consumer-stock" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="microservice-api" target="1.5" />
-      <module name="microservices-api" target="1.5" />
-      <module name="spring-reactive-consumer-topic-stock" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
