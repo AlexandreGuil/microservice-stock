@@ -1,0 +1,15 @@
+com\inti\formation\stock\api\model\Stock.class
+com\inti\formation\stock\api\seriallizer\JsonPojoSeriallizer.class
+com\inti\formation\stock\api\service\StockServiceImpl.class
+com\inti\formation\stock\api\EndPoint.class
+com\inti\formation\stock\api\configuration\MongoConfig.class
+com\inti\formation\stock\api\repository\StockDelRopository.class
+com\inti\formation\stock\api\service\IStockService.class
+com\inti\formation\stock\api\rest\bean\StockRequest.class
+com\inti\formation\stock\api\model\StockDel.class
+com\inti\formation\stock\api\rest\exception\StockModelNotFindInApiStockMongoDbCollectionException.class
+com\inti\formation\stock\api\rest\exception\InternalServerException.class
+com\inti\formation\stock\api\ApplicationShopStock.class
+com\inti\formation\stock\api\configuration\configurationProducer.class
+com\inti\formation\stock\api\repository\IStockRepositoy.class
+com\inti\formation\stock\api\rest\exception\StockParamException.class
