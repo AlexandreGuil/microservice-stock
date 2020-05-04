@@ -1,4 +1,9 @@
-com\inti\formation\stock\topic\consumer\configuration\ConsumerConfiguration.class
 com\inti\formation\stock\topic\consumer\service\ConsumerBuilder.class
-com\inti\formation\stock\topic\consumer\data\Stock.class
 com\inti\formation\stock\topic\consumer\AppConsumer.class
+com\inti\formation\stock\topic\consumer\model\StockTopic.class
+com\inti\formation\stock\topic\consumer\repository\StockEsRepository.class
+com\inti\formation\stock\topic\consumer\service\StockServiceImpl.class
+com\inti\formation\stock\topic\consumer\configuration\ConsumerConfiguration.class
+com\inti\formation\stock\topic\consumer\model\StockEs.class
+com\inti\formation\stock\topic\consumer\service\IStockService.class
+com\inti\formation\stock\topic\consumer\repository\IStockRepository.class

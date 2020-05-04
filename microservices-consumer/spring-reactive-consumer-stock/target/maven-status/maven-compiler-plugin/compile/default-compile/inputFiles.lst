@@ -1,4 +1,9 @@
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\repository\StockEsRepository.java
 C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\configuration\ConsumerConfiguration.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\model\StockEs.java
 C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\AppConsumer.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\data\Stock.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\repository\IStockRepository.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\model\StockTopic.java
 C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\service\ConsumerBuilder.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\service\IStockService.java
+C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-consumer\spring-reactive-consumer-stock\src\main\java\com\inti\formation\stock\topic\consumer\service\StockServiceImpl.java
