@@ -71,3 +71,11 @@ $ kafka-topics --zookeeper zookeeper:2181 --list topics
 $ kafka-console-consumer --bootstrap-server broker:9092 --topic stock-delete-v1 --from-beginning
 
 ````
+
+## Crée l'image docker a partir du spring-reactive-mongoapi-stock-1.0-RELEASE.jar
+
+````bash
+
+$ docker build -t microservice-stock-api .
+
+````
