@@ -17,7 +17,7 @@ kafka:
   client-id: producerStock
   buffer-memory: 80000000
   idempotence: true
-  compression-type: snappy
+  compression-type: lz4
   topic-name: deleted-stock-v1
   user: producer-user
   password: producer-pwd

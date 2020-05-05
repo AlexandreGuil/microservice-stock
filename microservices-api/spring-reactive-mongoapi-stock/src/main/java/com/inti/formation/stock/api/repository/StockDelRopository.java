@@ -22,7 +22,7 @@ public class StockDelRopository {
         res.setMagasin(stock.getMagasin());
         res.setActive(stock.getActive());
         res.setIdProduit(stock.getIdProduit());
-        res.setCreationDate(stock.getCreationDate().toString());
+        res.setCreationDate(stock.getCreationDate());
         res.setDeleteDate(format.format(new Date()));
 
         return res;
