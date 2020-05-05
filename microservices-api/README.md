@@ -81,3 +81,13 @@ $ kafka-console-consumer --bootstrap-server broker:9092 --topic stock-delete-v1 
 $ docker build -t microservice-stock-api .
 
 ````
+
+## Crée un contenair a partir de l'image microservice-stock-api
+
+> commande Docker
+
+````bash
+
+$ docker run -p 8080:8080 -t microservice-stock-api
+
+````
