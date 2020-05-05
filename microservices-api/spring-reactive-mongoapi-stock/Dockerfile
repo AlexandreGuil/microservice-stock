@@ -1,7 +1,7 @@
-FROM adoptopenjdk/openjdk12:latest
-ENV TZ=Europe/Pairs
-RUN ls
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-VOLUME /data
-ADD target/spring-reactive-mongoapi-stock.jar spring-reactive-mongoapi-stock.jar
-ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /spring-reactive-mongoapi-stock.jar" ]
+FROM openjdk:12-jdk-alpine
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+VOLUME /lib
+ARG JAR_FILE=target/spring-reactive-mongoapi-stock.jar
+ADD ${JAR_FILE} spring-reactive-mongoapi-stock.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom", "-jar","/spring-reactive-mongoapi-stock.jar"]
