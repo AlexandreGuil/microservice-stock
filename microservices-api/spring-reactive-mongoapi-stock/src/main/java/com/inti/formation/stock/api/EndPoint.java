@@ -162,7 +162,7 @@ public class EndPoint {
                     message);
             kafkaThemplate.send(producerRecord);
             return Mono.just(stock);
-        }).block(); //.subscribe();
+        }).subscribe();
         log.info("The stock entity with '_id': " + idStock + " was send in the delation topic" );
         return serv.deleteStockeById(Long.parseLong(idStock));
     }
