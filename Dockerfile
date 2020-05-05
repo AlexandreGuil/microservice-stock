@@ -1,6 +1,6 @@
 #Commencer avec une image de base contenant Java runtime
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:12-jdk-alpine
 
 #Ajouter les infos de l'éditeur 
 
@@ -13,7 +13,7 @@ VOLUME /tmp
 EXPOSE 8080
 
 #Le nom du fichier jar de l'application
-ARG JAR_FILE=target/spring-reactive-mongoapi-stock-1.0-SNAPSHOT.jar
+ARG JAR_FILE=target/spring-reactive-mongoapi-stock-1.0-RELEASE.jar
 
 #Ajouter l'application jar au container
 ADD ${JAR_FILE} spring-reactive-mongoapi-stock
