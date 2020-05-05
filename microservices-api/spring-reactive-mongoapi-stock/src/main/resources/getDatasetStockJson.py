@@ -38,4 +38,5 @@ for i in range(1, 500001):
         collection.insert_one(line)
         print(line.__str__())
     except:
-        collection.update(line)
+	    pass
+        #collection.update(line)
