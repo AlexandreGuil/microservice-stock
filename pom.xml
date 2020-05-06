@@ -12,6 +12,7 @@
         <module>microservices-utils</module>
         <module>microservices-common-libs</module>
         <module>microservices-consumer</module>
+        <module>microservices-ETL</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -20,16 +21,25 @@
         <springmongodb.version>2.2.4.RELEASE</springmongodb.version>
         <springkafka.version>2.3.6.RELEASE</springkafka.version>
         <kafkaclient.version>2.3.1</kafkaclient.version>
+        <camel.version>2.20.0</camel.version>
+        <camel.activemq.version>5.14.5</camel.activemq.version>
         <mongodbdriver.version>3.11.2</mongodbdriver.version>
         <projectreactor.version>3.3.1.RELEASE</projectreactor.version>
         <mavenfailsafeplugin.version>2.22.0</mavenfailsafeplugin.version>
         <commonslang3.version>3.9</commonslang3.version>
+        <jackson.version>2.10.2</jackson.version>
         <lombok.version>1.18.12</lombok.version>
         <slf4japi.version>1.7.25</slf4japi.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -68,6 +78,24 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-boot-starter</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jms</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-camel</artifactId>
+                <version>${camel.activemq.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-commons</artifactId>
                 <version>${springboot.version}</version>
@@ -101,6 +129,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commonslang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
             <dependency>

@@ -1,0 +1,18 @@
+camel:
+  springboot:
+    name: apache-camel-etl-file-stock
+
+
+in:
+  directory: C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\datasetes
+  file:
+    fileFilter: .*.[json|JSON]
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.101:27017,192.168.99.101:27017
+      database: apiStock
+
+server:
+  port: 0

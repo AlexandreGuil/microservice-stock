@@ -1,0 +1,9 @@
+com\inti\formation\apache\camel\etl\file\stock\Converter\StockConverterImpl.class
+com\inti\formation\apache\camel\etl\file\stock\producer\FileRouteBuilder.class
+com\inti\formation\apache\camel\etl\file\stock\EtlFileSockRunner.class
+com\inti\formation\apache\camel\etl\file\stock\model\mongodb\StockMongodbType.class
+com\inti\formation\apache\camel\etl\file\stock\model\file\StockeInputFile.class
+com\inti\formation\apache\camel\etl\file\stock\Converter\IStockConverter.class
+com\inti\formation\apache\camel\etl\file\stock\repository\IStockRepository.class
+com\inti\formation\apache\camel\etl\file\stock\service\IStockService.class
+com\inti\formation\apache\camel\etl\file\stock\service\StockServiceImpl.class
