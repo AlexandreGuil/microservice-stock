@@ -8,16 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservices-common-libs" />
-        <module name="spring-reactive-mongoapi-stock" />
         <module name="microservices-utils" />
-        <module name="spring-reactive-consumer-topic-stock" />
+        <module name="spring-reactive-mongoapi-stock" />
+        <module name="apache-camel-file-stock" />
         <module name="spring-reactive-consumer-stock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice-api" target="1.5" />
+      <module name="apache-camel-ETL-file-stock" target="8" />
       <module name="microservices-api" target="1.5" />
-      <module name="spring-reactive-consumer-topic-stock" target="1.5" />
+      <module name="microservices-ETL" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
