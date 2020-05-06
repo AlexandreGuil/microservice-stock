@@ -1,9 +1,0 @@
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\Converter\IStockConverter.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\model\mongodb\StockMongodbType.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\repository\IStockRepository.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\service\IStockService.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\producer\FileRouteBuilder.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\EtlFileSockRunner.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\Converter\StockConverterImpl.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\model\file\StockeInputFile.java
-C:\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\microservices-ETL\apache-camel-etl-file-stock\src\main\java\com\inti\formation\apache\camel\etl\file\stock\service\StockServiceImpl.java

@@ -7,12 +7,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-api/spring-reactive-mongoapi-stock/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-stock/pom.xml" />
-        <option value="$PROJECT_DIR$/microservices-ETL/apache-camel-etl-file-stock/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices-ETL/apache-camel-file-stock/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/microservice-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices-ETL/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-consumer/spring-reactive-consumer-topic-stock/pom.xml" />
         <option value="$PROJECT_DIR$/spring-reactive-mongoapi-stock/pom.xml" />
