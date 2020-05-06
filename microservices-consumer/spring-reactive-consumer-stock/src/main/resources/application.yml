@@ -8,10 +8,15 @@ kafka:
   auto-commit-interval-ms: 5000
   heartbeat-interval-ms: 300
 
+
 spring:
   data:
     elasticsearch:
       cluster-name: microservice-stock
+      client:
+        reactive:
+          password:
+          username:
 
   elasticsearch:
     jest:

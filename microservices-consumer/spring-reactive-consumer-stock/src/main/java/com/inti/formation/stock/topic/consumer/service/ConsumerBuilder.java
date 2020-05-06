@@ -24,6 +24,7 @@ public class ConsumerBuilder {
 
     @KafkaListener(topics = "${kafka.topic-name}", groupId = "${kafka.consumer-group-id}")
     public void consume(StockTopic stock) throws ParseException {
+//        log.info(topicName + " message " + stock.getKey() + " : " + stock.toString());
         StockEs persist = serv.saveStock(StockEsRepository.cloneStockTopic(stock));
         log.info(topicName + " message " + stock.getKey() + " : " + persist.toString() + " \nwas pushed into the index shop elasticsearch");
     }
