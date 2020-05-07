@@ -26,50 +26,38 @@ public class FileRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        //from("sftp://{{in.sftp.user}}@{{in.sftp.host}}:{{in.sftp.port}}/{{in.directory}}?password={{in.sftp.password}}&include={{in.file.filemask}}&preMove=.tmp/&move=.done/${date:now:yyyyMMdd}/${file:name}&sortBy=file:modified&moveFailed=.error/${date:now:yyyyMMdd}/${file:name}")
-        from("file://{{in.directory}}" + // repertoire
-                "?include={{in.file.fileFilter}}" + // extension .json ou .JSON
-                "&preMove=.tmp/" + // Traitement se fait dans le dossier temporaire de nom .tmp
-                "&move=.done/" + // Quand le traitment est un succès dépose le fichier ke dossier .done
-                "${date:now:yyyyMMdd}/" + // création d'un sous dossier de .done par date
-                "${file:name}&sortBy=file:modified" + // recopier le fichier et les trier par nom
-                "&moveFailed=.error/" + // créer un sous .error quand un problème sur le fichier
-                "${date:now:yyyyMMdd}/" + // // création d'un sous dossier de .error par date
-                "${file:name}") // copier le fichier
-                .routeId("process_file") // identifiant  du point de départ
-                .setHeader("uid") // identifiant de la donnée  pour la tyraçabilité
-                .constant(UUID.randomUUID().toString()) // uid=   UUID.randomUUID().toString()
-                .process(exchange -> {
-                    // exchange.getIn().getHeader("CamelFileName")  CamelFileName = nom du fichier
-                    log.info("FileUid received "+  exchange.getIn().getHeader("uid", String.class) + " from file " + exchange.getIn().getHeader("CamelFileName") + " will be pushed in mongodb" );
-                }).process(exchange -> {
-            final String fileName = exchange.getIn().getHeader("CamelFileNameOnly", String.class);
+        from("file://{{in.directory}}" +
+                "?include={{in.file.fileFilter}}" +
+                "&preMove=.tmp/" +
+                "&move=.done/" +
+                "${date:now:yyyy-MM-dd}/" +
+                "${file:name}&sortBy=file:modified" +
+                "&moveFailed=.error/" +
+                "${date:now:yyyy-MM-dd}/" +
+                "${file:name}")
+                .routeId("process_file")
+                .setHeader("uid")
+                .constant(UUID.randomUUID().toString())
+                .process(pro -> {
+                    log.info("FileUid received "+  pro.getIn().getHeader("uid", String.class) + " from file " + pro.getIn().getHeader("CamelFileName") + " will be pushed in mongodb" );
+                }).process(file -> {
+            final String fileName = file.getIn().getHeader("CamelFileNameOnly", String.class);
         }).
                 from("direct:init_file")
                 .routeId("init_file")
                 .removeHeaders("CamelFile*", "CamelFileNameOnly")
-
-                .split( ) // comment je lis le fichier
-                .jsonpath("$[*]") // parser json
-                .streaming()  // pas de chargement en  mémoire
+                .split( )
+                .jsonpath("$[*]")
+                .streaming()
                 .to("direct:process_file_processing");
-
-        // stockage dans mongo
         from("direct:process_file_processing")
                 .routeId("process_file_to_mongo")
-                // unmarshal to convert json to POJO example:
-                // .unmarshal()
-                // .json(JsonLibrary.Jackson, Product.class)
-
-                .marshal() // Conversion de en json
+                .marshal()
                 .json(JsonLibrary.Jackson)
-                .convertBodyTo(String.class) // convertit je json  en string
-                .process(exchange -> {
-                            // Récupération du produit en string
-                            final String  body = exchange.getIn().getBody(String.class);
-                            // conversion du string en object ProductInPut
+                .convertBodyTo(String.class)
+                .process(flux -> {
+                            final String  body = flux.getIn().getBody(String.class);
                             StockeInputFile product = new ObjectMapper().readValue(body, StockeInputFile.class);
-                            // Sauvegarde dans mongo
                             serv.save( stockConverter.converter(product));
                             log.info("   product " +product.toString());
 

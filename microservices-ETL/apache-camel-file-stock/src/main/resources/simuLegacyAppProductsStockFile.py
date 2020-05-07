@@ -36,7 +36,7 @@ class Stock:
 cmpt = 1
 for i in range(1,8):
     lstObj = [Stock(j).__dict__ for j in range(cmpt, 100000 + cmpt)]
-    print("Fichier stock" + str(i) + ": is write")
+    print("Fichier stock" + str(i) + ": is writen")
     with open(PATH + "\stock" + str(i) + ".json", "w") as out:
         json.dump(lstObj, out, indent=1)
     cmpt += 100000
