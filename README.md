@@ -1,22 +1,7 @@
-# SPRING REACTIVE API ( spring 5 ) 
-Running spring-reactive-mongoapi
-```
-cd microservices-data
+# Schemat aplicatif du projet microservice-stock
 
-mvn clean install
+<div align="center"> <img width="414px" src="schematApplicativeDemicroserviceStock.jpg"/>
 
-To run spring-reactive-mpongoapi
+# Schemat de l'architecture maven du projet microservice-stock
 
-cd microservices-api/spring-reactive-mongoapi/
-
-Run ApplicationShop.java ( from com.inti.formation.shop.api )
-```
-
-Creating image docker 
-* Image will be created from  Dockerfile
-```
-cd  spring-reactive-mongoapi
-mvn clean install
-docker build -t api:latest .
-```
-
+<div align="center"> <img width="414px" src="archetecture_maven.jpg"/>
