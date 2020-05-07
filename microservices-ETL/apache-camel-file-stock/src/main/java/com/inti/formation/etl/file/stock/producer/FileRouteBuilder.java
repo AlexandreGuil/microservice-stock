@@ -2,9 +2,7 @@ package com.inti.formation.etl.file.stock.producer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.inti.formation.etl.file.stock.Converter.IStockConverter;
-import com.inti.formation.etl.file.stock.Converter.StockConverterImpl;
 import com.inti.formation.etl.file.stock.model.file.StockeInputFile;
-import com.inti.formation.etl.file.stock.model.mongodb.StockMongodbType;
 import com.inti.formation.etl.file.stock.service.IStockService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.camel.builder.RouteBuilder;
