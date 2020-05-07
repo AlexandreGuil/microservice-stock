@@ -10,7 +10,7 @@ public class StockConverterImpl implements IStockConverter{
     @Override
     public StockMongodbType converter(StockeInputFile inputStock) {
         StockMongodbType outputStock = new StockMongodbType();
-        outputStock.setIdStock(inputStock.getIdStock());
+        outputStock.setIdStock(inputStock.getId());
         outputStock.setQuantite(inputStock.getQuantite());
         outputStock.setMagasin(inputStock.getMagasin());
         outputStock.setActive(inputStock.getActive());

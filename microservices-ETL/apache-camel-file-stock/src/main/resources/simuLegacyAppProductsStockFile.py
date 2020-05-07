@@ -1,15 +1,15 @@
 # encoding: utf-8
-import  json
-
+import json
+import time
+import sys
 import datetime
-import pymongo
 from random import randrange, randint
 
-PATH = "C:\\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\microservice-stock\datasetes"
+PATH = "C:\\Users\guill\Documents\FormationJavaData\BIG_DATA_PROJET\datasetes"
 
 class Stock:
-    def __init__(self, _id):
-        self._id = _id
+    def __init__(self, id):
+        self.id = id
         self.magasin = "MAG" + str(randint(1,10))
         self.quantite = randint(0, 1000)
         self.active = bool(randint(0,1))
@@ -33,9 +33,10 @@ class Stock:
                + ", " + str(self.active) \
                + ", " + str(self.idProduit) \
                + ", " + str(self.creationDate) + "]"
-
-for i in range(1,6):
-    lstObj = [Stock(j).__dict__ for j in range(1, 100000)]
-    print(json.dumps(lstObj, indent=4))
+cmpt = 1
+for i in range(1,8):
+    lstObj = [Stock(j).__dict__ for j in range(cmpt, 100000 + cmpt)]
+    print("Fichier stock" + str(i) + ": is writen")
     with open(PATH + "\stock" + str(i) + ".json", "w") as out:
-        json.dump(lstObj, out, indent=4)
+        json.dump(lstObj, out, indent=1)
+    cmpt += 100000
