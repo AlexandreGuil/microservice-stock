@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class StockeInputFile {
-    private Long idStock;
+    private Long id;
     private Long quantite;
     private String magasin;
     private Boolean active;
