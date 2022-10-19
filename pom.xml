@@ -28,7 +28,7 @@
         <projectreactor.version>3.3.1.RELEASE</projectreactor.version>
         <mavenfailsafeplugin.version>2.22.0</mavenfailsafeplugin.version>
         <commonslang3.version>3.9</commonslang3.version>
-        <jackson.version>2.10.2</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <lombok.version>1.18.12</lombok.version>
         <slf4japi.version>1.7.25</slf4japi.version>
     </properties>
